@@ -1,0 +1,16 @@
+7
+abcaa
+abcde
+abcd
+abc
+abcdef
+babc
+dabc
+7
+1 abc 5
+2 abcaaa
+1 ab 5
+2 abcbbb
+1 a 10
+1 b 1
+1 ab 5
