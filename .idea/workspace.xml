@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc20e4bc-2b40-4fd4-b2b4-4ed1af8ecc06" name="Default" comment="python commit">
-      <change afterPath="$PROJECT_DIR$/python/BOJ/!_2294.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/BOJ/9465.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/problem_solving.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/problem_solving.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/BOJ/!2048.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/BOJ/!3190.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/BOJ/13460.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/BOJ/2294.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/BOJ/temp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/BOJ/!_9465.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/BOJ/!_2294.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/BOJ/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/BOJ/input.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,29 +61,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.!_9465">
-    <configuration name="1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="problem_solving" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/Naver" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/Naver/1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="17144" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.!3190">
+    <configuration name="!13460" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="problem_solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,7 +74,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\po09l\PycharmProjects\problem_solving\python\BOJ\17144[미완성].py" />
+      <option name="SCRIPT_NAME" value="C:\Users\po09l\PycharmProjects\problem_solving\python\BOJ\13460.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,28 +83,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="problem_solving" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kakao/kakao_intern_190630" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kakao/kakao_intern_190630/2_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="!_1463" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="!3190" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="problem_solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,7 +95,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\po09l\PycharmProjects\problem_solving\python\BOJ\1463.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/BOJ/!3190.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="!_2294" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="problem_solving" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/BOJ" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\po09l\PycharmProjects\problem_solving\python\BOJ\2294.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,20 +146,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="temp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="problem_solving" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/BOJ" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/BOJ/temp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.1 (1)" />
-      <item itemvalue="Python.17144" />
-      <item itemvalue="Python.2_2" />
       <item itemvalue="Python.!_9465" />
-      <item itemvalue="Python.!_1463" />
+      <item itemvalue="Python.!_2294" />
+      <item itemvalue="Python.temp" />
+      <item itemvalue="Python.!13460" />
+      <item itemvalue="Python.!3190" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.!3190" />
+        <item itemvalue="Python.!13460" />
+        <item itemvalue="Python.!_2294" />
+        <item itemvalue="Python.temp" />
         <item itemvalue="Python.!_9465" />
-        <item itemvalue="Python.!_1463" />
-        <item itemvalue="Python.1 (1)" />
-        <item itemvalue="Python.17144" />
-        <item itemvalue="Python.2_2" />
       </list>
     </recent_temporary>
   </component>
@@ -262,6 +264,11 @@
           <line>40</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/BOJ/!_2294.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -271,11 +278,5 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="score_memory" language="Python" />
-        <watch expression="score_board" language="Python" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
