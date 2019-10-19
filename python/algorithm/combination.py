@@ -22,4 +22,8 @@ memory = [0 for _ in range(9)]
 combination(0)
 print(res)
 
+from itertools import combinations
+res2 = list(combinations(li,2))
+print(res2)
+
 

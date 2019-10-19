@@ -2,17 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc20e4bc-2b40-4fd4-b2b4-4ed1af8ecc06" name="Default" comment="python commit">
-      <change afterPath="$PROJECT_DIR$/python/BOJ/14500.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/BOJ/14501.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/BOJ/14502.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/BOJ/14503.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/BOJ/14888.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/BOJ/14889.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/algorithm/combination.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/algorithm/permutation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/BOJ/!15684.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/BOJ/!15684_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/BOJ/!16234.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/BOJ/!16234_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/BOJ/!16234_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/BOJ/!5373.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/BOJ/14890.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/BOJ/14891.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/BOJ/15683.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/BOJ/15685.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/BOJ/15686.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/BOJ/!14500.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/python/BOJ/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/BOJ/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/algorithm/combination.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/algorithm/combination.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/algorithm/permutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/algorithm/permutation.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,8 +69,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.!14889_2">
-    <configuration name="14889" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.!16234_3">
+    <configuration name="!15686" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="problem_solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -77,7 +82,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/BOJ/!14889.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/BOJ/15686.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,7 +91,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="!14888" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="!16234" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="problem_solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,7 +103,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/BOJ/14888.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/BOJ/!16234.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,7 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="!14889_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="!16234_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="problem_solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,7 +124,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/BOJ/14889.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/BOJ/!16234_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="combination" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="!16234_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="problem_solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,11 +141,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/BOJ" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/algorithm/combination.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/BOJ/!16234_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,7 +154,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="permutation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="!5373" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="problem_solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,11 +162,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/BOJ" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/algorithm/permutation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/BOJ/!5373.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,19 +176,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.!14888" />
-      <item itemvalue="Python.14889" />
-      <item itemvalue="Python.permutation" />
-      <item itemvalue="Python.combination" />
-      <item itemvalue="Python.!14889_2" />
+      <item itemvalue="Python.!15686" />
+      <item itemvalue="Python.!5373" />
+      <item itemvalue="Python.!16234" />
+      <item itemvalue="Python.!16234_2" />
+      <item itemvalue="Python.!16234_3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.!14889_2" />
-        <item itemvalue="Python.14889" />
-        <item itemvalue="Python.combination" />
-        <item itemvalue="Python.permutation" />
-        <item itemvalue="Python.!14888" />
+        <item itemvalue="Python.!16234_3" />
+        <item itemvalue="Python.!16234_2" />
+        <item itemvalue="Python.!16234" />
+        <item itemvalue="Python.!5373" />
+        <item itemvalue="Python.!15686" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569426082751</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="python commit">
+      <created>1571446941916</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571446941916</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -321,6 +333,22 @@
           <url>file://$PROJECT_DIR$/python/algorithm/permutation.py</url>
           <line>1</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <condition expression="N = 7" language="Python" />
+          <url>file://$PROJECT_DIR$/python/BOJ/14890.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/BOJ/14891.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/BOJ/!15684.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

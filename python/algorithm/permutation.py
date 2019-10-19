@@ -21,3 +21,7 @@ permutation()
 print(res)
 
 
+from itertools import permutations
+res2 = list(permutations(li,2))
+print(res2)
+
