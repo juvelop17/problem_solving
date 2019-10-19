@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc20e4bc-2b40-4fd4-b2b4-4ed1af8ecc06" name="Default" comment="python commit">
-      <change afterPath="$PROJECT_DIR$/python/BOJ/!16235.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/BOJ/!16236.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/BOJ/!16235.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/BOJ/!16235.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/BOJ/!16236.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/BOJ/!16236.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python/BOJ/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/BOJ/input.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.!16235">
+  <component name="RunManager" selected="Python.!16236">
     <configuration name="!16234" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="problem_solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,7 +142,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="!5373" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="!16236" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="problem_solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,7 +154,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/BOJ/!5373.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/BOJ/!16236.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,19 +164,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.!5373" />
       <item itemvalue="Python.!16234" />
       <item itemvalue="Python.!16234_2" />
       <item itemvalue="Python.!16234_3" />
       <item itemvalue="Python.!16235" />
+      <item itemvalue="Python.!16236" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.!16236" />
         <item itemvalue="Python.!16235" />
         <item itemvalue="Python.!16234_3" />
         <item itemvalue="Python.!16234_2" />
         <item itemvalue="Python.!16234" />
-        <item itemvalue="Python.!5373" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571495348514</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="python commit">
+      <created>1571500127550</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571500127551</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -346,9 +353,10 @@
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/python/BOJ/!16235.py</url>
-          <line>48</line>
-          <option name="timeStamp" value="38" />
+          <condition expression="cnt == 10" language="Python" />
+          <url>file://$PROJECT_DIR$/python/BOJ/!16236.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

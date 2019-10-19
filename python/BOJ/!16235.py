@@ -57,7 +57,7 @@ def spring():
 def summer():
     while dead:
         d = dead.pop()
-        base_map[d[0]][d[1]] += d[2]
+        base_map[d[0]][d[1]] += d[2] // 2
 
 
 def autumn():
