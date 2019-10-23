@@ -2,46 +2,45 @@
 
 
 int T,K;
-
+int MAX_VAL = 100000;
+int min_a = MAX_VAL;
+int min_b = MAX_VAL;
 
 
 int GCD(int n, int a,int b){
-    if (b == 0){
-        return 0;
-    }
-
     if (n == K){
-        return -1;
+        if (a%b == 0){
+            return 0;
+        } else {
+            return -1;
+        }
     }
     
-    return GCD(n+1,b,a%b)+1;
+    return GCD(n+1,b,a%b);
 }
 
 
-int solution(int K){
+int solution(){
     int res;
-    int MAX_VAL = 1000;
-    int min_a = MAX_VAL;
-    int min_b = MAX_VAL;
+    min_a = MAX_VAL;
+    min_b = MAX_VAL;
 
-    for (int i=1;i<=MAX_VAL;i++){
-        for (int j=1;j<=MAX_VAL;j++){
-            if (j > min_a){
-                continue;
-            }
+    for (int i=2;i<=MAX_VAL;i++){
+        printf("%d",i);
+        if (i > min_a){
+            break;
+        }
 
-            res = GCD(1,j,i);
-            if (res == K){
-                if (j < min_a){
-                    min_a = j;
-                } else if (j == min_a && i < min_b){
-                    min_b = i;
-                }
+        for (int j=1;j<i;j++){
+            res = GCD(1,i,j);
+            if (res != -1){
+                min_a = i;
+                min_b = j;
             }
         }
     }
     
-    return (min_a,min_b);
+    return 0;
 }
 
 
@@ -49,10 +48,12 @@ int solution(int K){
 
 int main(){
     freopen("input.txt","r",stdin);
+
     scanf("%d",&T);
     for (int i=1;i<=T;i++){
         scanf("%d",&K);
-        printf("#%d %d\n",i,solution(K));
+        solution();
+        printf("#%d %d %d\n",i,min_a,min_b);
     }
 
 }

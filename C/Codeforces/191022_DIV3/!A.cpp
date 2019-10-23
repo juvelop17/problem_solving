@@ -96,7 +96,7 @@ int solution()
 
 int main()
 {
-    // freopen("input.txt", "r", stdin);
+    freopen("input.txt", "r", stdin);
 
     scanf("%d", &q);
 
