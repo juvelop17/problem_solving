@@ -11,6 +11,7 @@
             "program": "${fileDirname}/${fileBasenameNoExtension}",
             "args": [],
             "stopAtEntry": false,
+            // "cwd": "${workspaceFolder}",
             "cwd": "${fileDirname}",
             "environment": [],
             "externalConsole": false,
@@ -27,4 +28,3 @@
         }
     ]
 }
-
