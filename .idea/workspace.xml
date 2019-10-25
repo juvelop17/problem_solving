@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc20e4bc-2b40-4fd4-b2b4-4ed1af8ecc06" name="Default" comment="python commit">
-      <change afterPath="$PROJECT_DIR$/python/Codeforces/191022_DIV3/A.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/Codeforces/191022_DIV3/B.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/Codeforces/191022_DIV3/C.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/Codeforces/191022_DIV3/D.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/Codeforces/191022_DIV3/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/Codeforces/191025_DIV2/A.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/Codeforces/191025_DIV2/B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/Codeforces/191025_DIV2/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,20 +29,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/python/Codeforces/191025_DIV2" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Juvelop\PycharmProjects\problem_solving_python\python" />
-      <recent name="C:\Users\Juvelop\PycharmProjects\problem_solving_python" />
-      <recent name="C:\Users\Juvelop\PycharmProjects\problem_solving_python\Kakao" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/python/Codeforces/191025_DIV2" />
       <recent name="C:\Users\Juvelop\PycharmProjects\problem_solving_python\C" />
       <recent name="C:\Users\Juvelop\PycharmProjects\problem_solving_python" />
       <recent name="C:\Users\Juvelop\PycharmProjects\problem_solving_python\Kakao\kakao_intern_190630" />
       <recent name="C:\Users\Juvelop\PycharmProjects\problem_solving_python\SWEA" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Juvelop\PycharmProjects\problem_solving_python\python" />
+      <recent name="C:\Users\Juvelop\PycharmProjects\problem_solving_python" />
+      <recent name="C:\Users\Juvelop\PycharmProjects\problem_solving_python\Kakao" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -59,8 +58,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.D">
-    <configuration name="A" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.B (1)">
+    <configuration name="A (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="problem_solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -68,11 +67,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/Codeforces/191022_DIV3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/Codeforces/191025_DIV2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/Codeforces/191022_DIV3/A.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/Codeforces/191025_DIV2/A.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="B (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="problem_solving" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/Codeforces/191025_DIV2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/Codeforces/191025_DIV2/B.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,41 +164,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="!16236" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="problem_solving" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/BOJ" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/BOJ/!16236.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.!16236" />
-      <item itemvalue="Python.A" />
       <item itemvalue="Python.B" />
       <item itemvalue="Python.C" />
       <item itemvalue="Python.D" />
+      <item itemvalue="Python.A (1)" />
+      <item itemvalue="Python.B (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.B (1)" />
+        <item itemvalue="Python.A (1)" />
         <item itemvalue="Python.D" />
         <item itemvalue="Python.C" />
         <item itemvalue="Python.B" />
-        <item itemvalue="Python.A" />
-        <item itemvalue="Python.!16236" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571504927123</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="python commit">
+      <created>1571819490839</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1571819490839</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -371,6 +377,16 @@
           <url>file://$PROJECT_DIR$/python/Codeforces/191022_DIV3/C.py</url>
           <line>13</line>
           <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/Codeforces/191025_DIV2/A.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/Codeforces/191025_DIV2/B.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
