@@ -57,24 +57,20 @@
                 }
             }
         },
+        // 바이너리 실행(Ubuntu)
+        // {
+        //     "label": "execute",
+        //     "command": "cd ${fileDirname} && ./${fileBasenameNoExtension}",
+        //     "group": "test"
+        // }
+        // 바이너리 실행(Windows)
         {
             "label": "execute",
-            "command": "cd ${fileDirname} && ./${fileBasenameNoExtension}",
-            "group": "test"
-        },
-        {
-            "type": "shell",
-            "label": "g++ build active file",
-            "command": "/usr/bin/g++",
+            "command": "cmd",
+            "group": "test",
             "args": [
-                "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
-            ],
-            "options": {
-                "cwd": "/usr/bin"
-            }
+                "/C", "${fileDirname}\\${fileBasenameNoExtension}"
+            ]
         }
     ]
 }
