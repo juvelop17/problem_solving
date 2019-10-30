@@ -38,6 +38,7 @@ int main(){
                 cin >> map_arr[j][k];
             }
         }
+        solution();
         printMap(map_arr);
     }
 
