@@ -15,6 +15,10 @@
 			"initializer_list": "cpp",
 			"utility": "cpp",
 			"queue": "cpp",
+<<<<<<< HEAD
+			"iosfwd": "cpp",
+=======
+>>>>>>> a9852b8afb3d6fa70f5679d0bf973fe94c64f519
 			"iostream": "cpp"
 		}
 	}
