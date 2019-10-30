@@ -57,7 +57,7 @@
                 }
             }
         },
-        // 바이너리 실행(Ubuntu)
+        // 바이너리 실행(Ubuntu) 
         // {
         //     "label": "execute",
         //     "command": "cd ${fileDirname} && ./${fileBasenameNoExtension}",
