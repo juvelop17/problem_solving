@@ -14,7 +14,8 @@
 			"array": "cpp",
 			"initializer_list": "cpp",
 			"utility": "cpp",
-			"queue": "cpp"
+			"queue": "cpp",
+			"iostream": "cpp"
 		}
 	}
 }
