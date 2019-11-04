@@ -45,10 +45,12 @@ int solution(){
     int left = n1+n2-1;
     int right_min = min(n2,n1-1);
     
-    float res = 1;
+    long long res = 1;
     for (int i=0;i<right_min;i++){
-        res = res * (left-i) / (right_min-i);
-    }
+        res = res * (left-i) / (i+1);
+    } 
+    // 틀린 계산식 
+    // 1 + 3 과 2 + 2를 구분함
 
     return res;
 }
