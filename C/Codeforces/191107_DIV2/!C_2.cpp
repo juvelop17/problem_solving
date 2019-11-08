@@ -4,22 +4,29 @@
 
 using namespace std;
 
-#define MAX_NUM 1000000
-
 long long n;
-long long num_arr[MAX_NUM];
-long long mem_arr[MAX_NUM]={0};
+int num_arr[1000000];
+int mem_arr[1000000]={0};
 
 long long solution(){
     long long res;
     long long cnt = 0;
-    for(long long i=2;i<=n && i<=MAX_NUM;i++){
+    for(long long i=2;i*i<=n;i++){
         if (n % i == 0 && mem_arr[i] == 0){
             for (int j=1;j<=n/i;j++){
                 mem_arr[i*j] = 1;
             }
             num_arr[cnt] = i;
             cnt++;
+
+            int k = n/i;
+            if (i!=k){
+                for (int j=1;j<=n/k;j++){
+                    mem_arr[k*j] = 1;
+                }
+                num_arr[cnt] = k;
+                cnt++;
+            }
         }        
     }
 
