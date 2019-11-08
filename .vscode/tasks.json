@@ -57,6 +57,7 @@
                 }
             }
         },
+<<<<<<< HEAD
         // 바이너리 실행(Ubuntu) 
         // {
         //     "label": "execute Ubuntu",
@@ -68,9 +69,26 @@
             "label": "execute Windows",
             "command": "cmd",
             "group": "test",
+=======
+        {
+            "label": "execute",
+            "command": "cd ${fileDirname} && ./${fileBasenameNoExtension}",
+            "group": "test"
+        },
+        {
+            "type": "shell",
+            "label": "g++ build active file",
+            "command": "/usr/bin/g++",
+>>>>>>> 86f0b882e4cd2dc61ef966e32350e77225666948
             "args": [
-                "/C", "${fileDirname}\\${fileBasenameNoExtension}"
-            ]
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "/usr/bin"
+            }
         }
     ]
 }

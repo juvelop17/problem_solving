@@ -35,6 +35,7 @@
     // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
     "version": "0.2.0",
     "configurations": [
+        
         {
             "name": "Windows g++.exe build and debug active file",
             "type": "cppdbg",
@@ -42,7 +43,8 @@
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
+            // "cwd": "${workspaceFolder}",
+            "cwd": "${fileDirname}",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",

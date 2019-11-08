@@ -15,11 +15,36 @@
 			"initializer_list": "cpp",
 			"utility": "cpp",
 			"queue": "cpp",
-<<<<<<< HEAD
 			"iosfwd": "cpp",
-=======
->>>>>>> a9852b8afb3d6fa70f5679d0bf973fe94c64f519
-			"iostream": "cpp"
+			"iostream": "cpp",
+			"ostream": "cpp",
+			"cstdio": "cpp",
+			"random": "cpp",
+			"limits": "cpp",
+			"*.tcc": "cpp",
+			"cctype": "cpp",
+			"clocale": "cpp",
+			"cstdarg": "cpp",
+			"cstdint": "cpp",
+			"ctime": "cpp",
+			"cwchar": "cpp",
+			"cwctype": "cpp",
+			"unordered_map": "cpp",
+			"exception": "cpp",
+			"algorithm": "cpp",
+			"functional": "cpp",
+			"system_error": "cpp",
+			"tuple": "cpp",
+			"type_traits": "cpp",
+			"fstream": "cpp",
+			"iomanip": "cpp",
+			"istream": "cpp",
+			"new": "cpp",
+			"numeric": "cpp",
+			"sstream": "cpp",
+			"stdexcept": "cpp",
+			"streambuf": "cpp",
+			"typeinfo": "cpp"
 		}
 	}
 }
