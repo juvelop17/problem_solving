@@ -59,13 +59,13 @@
         },
         // 바이너리 실행(Ubuntu) 
         // {
-        //     "label": "execute",
+        //     "label": "execute Ubuntu",
         //     "command": "cd ${fileDirname} && ./${fileBasenameNoExtension}",
         //     "group": "test"
         // }
         // 바이너리 실행(Windows)
         {
-            "label": "execute",
+            "label": "execute Windows",
             "command": "cmd",
             "group": "test",
             "args": [
