@@ -45,8 +45,14 @@
 			"stdexcept": "cpp",
 			"streambuf": "cpp",
 			"typeinfo": "cpp",
-			"xiosbase": "cpp",
-			"string_view": "cpp"
+			"string_view": "cpp",
+			"atomic": "cpp",
+			"cstddef": "cpp",
+			"memory": "cpp",
+			"memory_resource": "cpp",
+			"optional": "cpp",
+			"map": "cpp",
+			"cstring": "cpp"
 		}
 	}
 }
