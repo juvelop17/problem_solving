@@ -52,7 +52,9 @@
 			"memory_resource": "cpp",
 			"optional": "cpp",
 			"map": "cpp",
-			"cstring": "cpp"
+			"cstring": "cpp",
+			"__hash_table": "cpp",
+			"__tree": "cpp"
 		}
 	}
 }
