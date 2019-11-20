@@ -12,8 +12,8 @@ struct Tree{
 };
 
 struct cmp{
-    bool operator()(Tree t, Tree u){
-        return t.age < u.age;
+    bool operator() (Tree a, Tree b){
+        return a.age < b.age;
     }
 };
 
@@ -27,6 +27,8 @@ int dy[8] = {-1,0,1,-1,1,-1,0,1};
 priority_queue<Tree,vector<Tree>,cmp> tree_pque;
 priority_queue<Tree,vector<Tree>,cmp> alive_pque;
 priority_queue<Tree,vector<Tree>,cmp> dead_pque;
+
+
 
 
 bool checkRange(int i, int j) {
