@@ -1,7 +1,7 @@
 // 키 바인딩을 이 파일에 넣어서 기본값을 덮어씁니다.
 [
     //컴파일
-    { "key": "ctrl+alt+c", "command": "workbench.action.tasks.build" },
+    { "key": "ctrl+alt+b", "command": "workbench.action.tasks.build" },
     
     //실행
     { "key": "ctrl+alt+r", "command": "workbench.action.tasks.test" }
@@ -23,9 +23,12 @@
             "args": [
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${fileDirname}/${fileBasenameNoExtension}.out"
             ],
-            "group": "build",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
 
             //컴파일시 에러를 편집기에 반영
             //참고:   https://code.visualstudio.com/docs/editor/tasks#_defining-a-problem-matcher
@@ -47,53 +50,56 @@
                 }
             }
         },
-        //C 컴파일
-        {
-            "label": "save and compile for C",
-            "command": "gcc",
-            "args": [
-                "${file}",
-                "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
-            ],
-            "group": "build",
-
-            //컴파일시 에러를 편집기에 반영
-            //참고:   https://code.visualstudio.com/docs/editor/tasks#_defining-a-problem-matcher
-
-            "problemMatcher": {
-                "fileLocation": [
-                    "relative",
-                    "${workspaceRoot}"
-                ],
-                "pattern": {
-                    // The regular expression. 
-                   //Example to match: helloWorld.c:5:3: warning: implicit declaration of function 'prinft'
-                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning error):\\s+(.*)$",
-                    "file": 1,
-                    "line": 2,
-                    "column": 3,
-                    "severity": 4,
-                    "message": 5
-                }
-            }
-        },
-        // 바이너리 실행(Ubuntu)
+        // //C 컴파일
         // {
-        //     "label": "execute",
-        //     "command": "cd ${fileDirname} && ./${fileBasenameNoExtension}",
-        //     "group": "test"
-        // }
-        // 바이너리 실행(Windows)
+        //     "label": "save and compile for C",
+        //     "command": "gcc",
+        //     "args": [
+        //         "${file}",
+        //         "-o",
+        //         "${fileDirname}/${fileBasenameNoExtension}"
+        //     ],
+        //     "group": "build",
+
+        //     //컴파일시 에러를 편집기에 반영
+        //     //참고:   https://code.visualstudio.com/docs/editor/tasks#_defining-a-problem-matcher
+
+        //     "problemMatcher": {
+        //         "fileLocation": [
+        //             "relative",
+        //             "${workspaceRoot}"
+        //         ],
+        //         "pattern": {
+        //             // The regular expression. 
+        //            //Example to match: helloWorld.c:5:3: warning: implicit declaration of function 'prinft'
+        //             "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning error):\\s+(.*)$",
+        //             "file": 1,
+        //             "line": 2,
+        //             "column": 3,
+        //             "severity": 4,
+        //             "message": 5
+        //         }
+        //     }
+        // },
+
+        // 바이너리 실행(Ubuntu)
         {
             "label": "execute",
-            "command": "cmd",
-            "group": "test",
-            "args": [
-                "/C", "${fileDirname}\\${fileBasenameNoExtension}"
-            ]
-    
+            "command": "cd ${fileDirname} && ./${fileBasenameNoExtension}.out",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            }
         }
+        // 바이너리 실행(Windows)
+        // {
+        //     "label": "execute",
+        //     "command": "cmd",
+        //     "group": "test",
+        //     "args": [
+        //         "/C", "${fileDirname}\\${fileBasenameNoExtension}"
+        //     ]
+        // }
     ]
 }
 
@@ -103,7 +109,26 @@
 
 
 
-
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(lldb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "lldb"
+        }
+    ]
+}
 
 {
     // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
