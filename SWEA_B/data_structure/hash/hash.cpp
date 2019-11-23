@@ -52,9 +52,9 @@ int my_strcmp(const char *str1, const char *str2){
 
 int getHash(const char *str) {
     int hash = 5381;
-    int c;
+    int c = *str;
 
-    while (c = *str++) {
+    while (*str != '\0') {
         hash = (((hash << 5) + hash) + c) % MAX_TABLE;
         str++;
     }
@@ -132,7 +132,19 @@ bool destroy(const char *key){
     }
 }
 
-
+void print_hash() {
+	for (int i = 0; i < MAX_TABLE; ++i) {
+		if (tb[i] != NULL) {
+			printf("index : %d\n", i);
+			Node * cur = tb[i];
+			while (cur != NULL) {
+				printf("{ %s, %d }, ", cur->key, cur->value);
+				cur = cur->next;
+			}
+			printf("\n");
+		}
+	}
+}
 
 
 int main(int argc, char* argv[])
@@ -149,14 +161,19 @@ int main(int argc, char* argv[])
         char k[MAX_KEY + 1];
         // char d[MAX_DATA + 1];
         int val;
+
+        cout << "#" << test_case << endl;
  
         for (int i = 0; i < N; i++)
         {
             cin >> k >> val;
+            cout << k << "\t" << val << endl;
             add(k, val);
         }
- 
-        cout << "#" << test_case << endl;
+
+        cout << endl;
+        print_hash();
+        cout << endl;
  
         cin >> Q;
         for (int i = 0; i < Q; i++)
@@ -166,7 +183,6 @@ int main(int argc, char* argv[])
             int val;
  
             cin >> k;
- 
             if (find(k, &val))
             {
                 cout << val << endl;;
@@ -176,6 +192,7 @@ int main(int argc, char* argv[])
                 cout << "not find\n";
             }
         }
+        cout << endl;
     }
     return 0;
 }

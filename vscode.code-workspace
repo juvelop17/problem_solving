@@ -54,7 +54,9 @@
 			"map": "cpp",
 			"cstring": "cpp",
 			"__hash_table": "cpp",
-			"__tree": "cpp"
+			"__tree": "cpp",
+			"__locale": "cpp",
+			"bitset": "cpp"
 		}
 	}
 }
