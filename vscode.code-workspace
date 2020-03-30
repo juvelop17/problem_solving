@@ -56,7 +56,10 @@
 			"__hash_table": "cpp",
 			"__tree": "cpp",
 			"__locale": "cpp",
-			"bitset": "cpp"
+			"bitset": "cpp",
+			"ios": "cpp",
+			"__split_buffer": "cpp",
+			"iterator": "cpp"
 		}
 	}
 }

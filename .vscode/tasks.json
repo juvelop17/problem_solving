@@ -12,11 +12,12 @@
             "type": "shell",
             "command": "clang++",
             "args": [
-                "-std=c++17",
-                "-stdlib=libc++",
+                // "-std=c++14",
+                // "-stdlib=libc++",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}.out"
+                "${fileDirname}/${fileBasenameNoExtension}.out",
+                "--debug"
             ],
             "group": {
                 "kind": "build",
@@ -27,7 +28,7 @@
         {
             "label": "execute",
             "command": "${fileDirname}/${fileBasenameNoExtension}.out",
-            // "command": "cd ${fileDirname} && ./${fileBasenameNoExtension}",
+            // "command": "cd ${fileDirname} && ./${fileBasenameNoExtension}.out",
             "group": {
                 "kind": "test",
                 "isDefault": true
