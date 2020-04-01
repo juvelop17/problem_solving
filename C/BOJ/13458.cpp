@@ -9,7 +9,6 @@ int N, A[1000000];
 int B, C;
 
 
-
 long long  solution() {
     long long cnt = 0;
 
@@ -39,7 +38,5 @@ int main() {
     cout << solution();
 
 }
-
-
 
 
