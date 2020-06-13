@@ -15,28 +15,70 @@ int cur_i,cur_j;
 int di[5] = {0,0,0,-1,1};
 int dj[5] = {0,1,-1,0,0};
 
-int move(int comm){
-    // if (comm == 1) {
-        
-    // } else if (comm == 2) {
+int dice[6] = {4,3,2,1,5,6}; // 좌 우 위에서 아래로
 
-    // } else if (comm == 3) {
-        
-    // } else if (comm == 4) {
-        
-    // }
-
-    
+bool checkRange(int i, int j){
+    return i >= 0 && i < N && j >= 0 && j < M;
 }
 
+int move(int comm){
+    int new_dice[6];
+    
+    int new_cur_i = cur_i + di[comm];
+    int new_cur_j = cur_j + dj[comm];
+    if (checkRange(new_cur_i, new_cur_j)) {
+        cur_i = new_cur_i;
+        cur_j = new_cur_j;
+    }
+
+    for (int i=0;i<6;i++){
+        new_dice[i] = dice[i];
+    }
+
+    if (comm == 1) {
+        new_dice[0] = dice[5];
+        new_dice[3] = dice[0];
+        new_dice[1] = dice[3];
+        new_dice[5] = dice[1];
+    } else if (comm == 2) {
+        new_dice[0] = dice[3];
+        new_dice[3] = dice[1];
+        new_dice[1] = dice[5];
+        new_dice[5] = dice[0];
+    } else if (comm == 3) {
+        new_dice[2] = dice[3];
+        new_dice[3] = dice[4];
+        new_dice[4] = dice[5];
+        new_dice[5] = dice[2];
+    } else if (comm == 4) {
+        new_dice[2] = dice[5];
+        new_dice[3] = dice[2];
+        new_dice[4] = dice[3];
+        new_dice[5] = dice[4];
+    }
+    
+    for (int i=0;i<6;i++){
+        dice[i] = new_dice[i];
+    }
+
+    if (mp[cur_i][cur_j] == 0) {
+        mp[cur_i][cur_j] = dice[5];
+    } else {
+        mp[cur_i][cur_j] = dice[5];
+        dice[5] = 0;
+    }
+
+    cout << dice[3] << endl;
+
+    return 0;
+}
 
 int solution() {
     int cnt = 0;
     while (cnt < K){
-        
+        move(comm[cnt]);
         cnt++;
     }
-    
 
     return 0;
 }
@@ -46,6 +88,8 @@ int main() {
 
     cin >> N >> M >> x >> y >> K;
     
+    cur_i = x;
+    cur_j = y;
     for (int i=0;i<N;i++){
         for(int j=0;j<M;j++){
             cin >> mp[i][j];

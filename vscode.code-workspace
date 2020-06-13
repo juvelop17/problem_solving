@@ -59,7 +59,8 @@
 			"bitset": "cpp",
 			"ios": "cpp",
 			"__split_buffer": "cpp",
-			"iterator": "cpp"
+			"iterator": "cpp",
+			"__config": "cpp"
 		}
 	}
 }
