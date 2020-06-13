@@ -1,2 +1,2 @@
 # problem_solving
-I study algorithm used to build program in this repo.
+I'm studying algorithms in this repo.
