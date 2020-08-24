@@ -60,7 +60,12 @@
 			"ios": "cpp",
 			"__split_buffer": "cpp",
 			"iterator": "cpp",
-			"__config": "cpp"
+			"__config": "cpp",
+			"chrono": "cpp",
+			"locale": "cpp",
+			"set": "cpp",
+			"stack": "cpp",
+			"unordered_set": "cpp"
 		}
 	}
 }
