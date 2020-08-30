@@ -28,6 +28,7 @@ int solution() {
             que.push(i);
             vertex_delay[i] = delay[i];
         }
+        
     }
 
     while (!que.empty()) {
