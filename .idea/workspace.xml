@@ -2,12 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc20e4bc-2b40-4fd4-b2b4-4ed1af8ecc06" name="Default" comment="python commit">
-      <change afterPath="$PROJECT_DIR$/python/Codeforces/191025_DIV2/A.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/Codeforces/191025_DIV2/B.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/Codeforces/191025_DIV2/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/2018/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/18/1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/2018/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/18/2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/2018/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/18/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/2019/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/2019/1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/2019/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/2019/2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/2019/3.bak.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/2019/3.bak.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/2019/3.bak2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/2019/3.bak2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/2019/3.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/2019/3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/2019/4.bak.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/2019/4.bak.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/2019/4.bak2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/2019/4.bak2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/2019/4.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/2019/4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/2019/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/2019/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_2017_1st/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_2017_1st/1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_2017_1st/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_2017_1st/2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_2017_1st/3.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_2017_1st/3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_2017_1st/4.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_2017_1st/4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_2017_1st/5.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_2017_1st/5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_2017_1st/6.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_2017_1st/6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_2017_1st/7.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_2017_1st/7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_2017_1st/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_2017_1st/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern1/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern1/1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern1/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern1/2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern1/3.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern1/3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern1/4.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern1/4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern1/4_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern1/4_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern1/4_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern1/4_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern1/4_최적화필요.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern1/4_최적화필요.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern1/4_최적화필요2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern1/4_최적화필요2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern1/4_최적화필요3.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern1/4_최적화필요3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern1/4_최적화필요4.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern1/4_최적화필요4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern1/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern1/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/1_제출용.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/1_제출용.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/2_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/2_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/2_제출용.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/2_제출용.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/2_제출용_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/2_제출용_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/test_cases_1.zip" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/test_cases_1.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/test_cases_1/input001.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/test_cases_1/input001.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/test_cases_1/input002.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/test_cases_1/input002.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/test_cases_1/output001.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/test_cases_1/output001.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/test_cases_1/output002.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/test_cases_1/output002.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/test_cases_2.zip" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/test_cases_2.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/test_cases_2/input001.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/test_cases_2/input001.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/test_cases_2/output001.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/test_cases_2/output001.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Kakao/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/test.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +72,13 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/python/Codeforces/191025_DIV2" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -45,18 +96,6 @@
       <recent name="C:\Users\Juvelop\PycharmProjects\problem_solving_python" />
       <recent name="C:\Users\Juvelop\PycharmProjects\problem_solving_python\Kakao" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.B (1)">
     <configuration name="A (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -283,6 +322,16 @@
     <MESSAGE value="python commit" />
     <option name="LAST_COMMIT_MESSAGE" value="python commit" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="61" y="65" key="SettingsEditor" timestamp="1599542323976">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="61" y="65" key="SettingsEditor/0.23.1440.806@0.23.1440.806" timestamp="1599542323976" />
+    <state x="225" y="153" key="search.everywhere.popup" timestamp="1599542041073">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="225" y="153" key="search.everywhere.popup/0.23.1440.806@0.23.1440.806" timestamp="1599542041073" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -291,7 +340,7 @@
           <line>47</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/python/Kakao/kakao_intern_190630/2.py</url>
+          <url>file://$PROJECT_DIR$/python/PStest/kakao_intern_190630/2.py</url>
           <line>56</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
