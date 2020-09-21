@@ -3,7 +3,7 @@ import time
 import heapq
 
 prev_time = time.time_ns()
-# sys.stdin = open('input.txt','r')
+# sys.stdin = open('input1.txt','r')
 read = sys.stdin.readline
 
 # 아기 상어는 자신의 크기보다 큰 물고기가 있는 칸은 지나갈 수 없고, 나머지 칸은 모두 지나갈 수 있다.

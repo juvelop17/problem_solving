@@ -2,56 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc20e4bc-2b40-4fd4-b2b4-4ed1af8ecc06" name="Default" comment="python commit">
+      <change afterPath="$PROJECT_DIR$/python/BOJ/!3190.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/BOJ/12100.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/BOJ/13460_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/PStest/2020_L/!5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/PStest/2020_L/!6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/PStest/2020_L/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/PStest/2020_L/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/PStest/2020_L/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/PStest/2020_L/3_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/PStest/2020_L/4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/PStest/2020_k/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/PStest/2020_k/1_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/PStest/2020_k/1_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/PStest/2020_k/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/PStest/2020_k/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/PStest/2020_k/4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/PStest/2020_k/5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/PStest/2020_k/input1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/PStest/2020_k/input2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/PStest/2021_k/!3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/PStest/2021_k/!3_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/PStest/2021_k/!3_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/PStest/2021_k/!5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/PStest/2021_k/!6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/PStest/2021_k/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/PStest/2021_k/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/algorithm/trie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/example_template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/example_template.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/2018/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/18/1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/2018/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/18/2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/2018/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/18/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/2019/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/2019/1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/2019/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/2019/2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/2019/3.bak.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/2019/3.bak.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/2019/3.bak2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/2019/3.bak2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/2019/3.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/2019/3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/2019/4.bak.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/2019/4.bak.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/2019/4.bak2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/2019/4.bak2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/2019/4.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/2019/4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/2019/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/2019/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_2017_1st/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_2017_1st/1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_2017_1st/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_2017_1st/2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_2017_1st/3.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_2017_1st/3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_2017_1st/4.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_2017_1st/4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_2017_1st/5.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_2017_1st/5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_2017_1st/6.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_2017_1st/6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_2017_1st/7.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_2017_1st/7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_2017_1st/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_2017_1st/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern1/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern1/1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern1/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern1/2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern1/3.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern1/3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern1/4.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern1/4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern1/4_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern1/4_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern1/4_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern1/4_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern1/4_최적화필요.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern1/4_최적화필요.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern1/4_최적화필요2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern1/4_최적화필요2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern1/4_최적화필요3.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern1/4_최적화필요3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern1/4_최적화필요4.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern1/4_최적화필요4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern1/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern1/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/1_제출용.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/1_제출용.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/2_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/2_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/2_제출용.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/2_제출용.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/2_제출용_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/2_제출용_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/test_cases_1.zip" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/test_cases_1.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/test_cases_1/input001.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/test_cases_1/input001.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/test_cases_1/input002.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/test_cases_1/input002.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/test_cases_1/output001.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/test_cases_1/output001.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/test_cases_1/output002.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/test_cases_1/output002.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/test_cases_2.zip" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/test_cases_2.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/test_cases_2/input001.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/test_cases_2/input001.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/kakao_intern_190630/test_cases_2/output001.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/kakao_intern_190630/test_cases_2/output001.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Kakao/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/BOJ/!12100.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/BOJ/!15684.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/BOJ/!15684.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/BOJ/!15684_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/BOJ/!15684_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/BOJ/!16235.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/BOJ/!16235.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/BOJ/!16236.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/BOJ/!16236.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/BOJ/13458.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/BOJ/13458.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/BOJ/13460.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/BOJ/13460.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/BOJ/14499.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/BOJ/14499.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/BOJ/14500.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/BOJ/14500.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/BOJ/14501.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/BOJ/14501.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/BOJ/14502.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/BOJ/14502.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/BOJ/14503.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/BOJ/14503.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/BOJ/1463.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/BOJ/1463.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/BOJ/14888.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/BOJ/14888.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/BOJ/14890.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/BOJ/14890.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/BOJ/14891.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/BOJ/14891.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/BOJ/15683.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/BOJ/15683.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/BOJ/15685.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/BOJ/15685.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/BOJ/15686.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/BOJ/15686.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/BOJ/2294.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/BOJ/2294.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/BOJ/3190.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/BOJ/3190.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/BOJ/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/BOJ/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/BOJ/temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/BOJ/temp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Codeforces/191022_DIV3/A.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/Codeforces/191022_DIV3/A.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Codeforces/191022_DIV3/C.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/Codeforces/191022_DIV3/C.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Codeforces/191025_DIV2/A.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/Codeforces/191025_DIV2/A.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/PStest/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/input_output_test.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +89,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/python/Codeforces/191025_DIV2" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -97,8 +105,8 @@
       <recent name="C:\Users\Juvelop\PycharmProjects\problem_solving_python\Kakao" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.B (1)">
-    <configuration name="A (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.12100">
+    <configuration name="12100" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="problem_solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -106,11 +114,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/Codeforces/191025_DIV2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/BOJ" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/Codeforces/191025_DIV2/A.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/BOJ/12100.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="B (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="13460_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="problem_solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,11 +135,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/Codeforces/191025_DIV2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/BOJ" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/Codeforces/191025_DIV2/B.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/BOJ/13460_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,7 +148,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="B" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="problem_solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,11 +156,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/Codeforces/191022_DIV3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/PStest/2020_l" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/Codeforces/191022_DIV3/B.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/PStest/2020_l/4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,7 +169,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="C" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="temp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="problem_solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -169,11 +177,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/Codeforces/191022_DIV3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/BOJ" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/Codeforces/191022_DIV3/C.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/BOJ/temp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,7 +190,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="D" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="problem_solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -190,11 +198,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/Codeforces/191022_DIV3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/PStest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/Codeforces/191022_DIV3/D.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/PStest/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,19 +212,17 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.B" />
-      <item itemvalue="Python.C" />
-      <item itemvalue="Python.D" />
-      <item itemvalue="Python.A (1)" />
-      <item itemvalue="Python.B (1)" />
+      <item itemvalue="Python.12100" />
+      <item itemvalue="Python.13460_2" />
+      <item itemvalue="Python.4" />
+      <item itemvalue="Python.temp" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.B (1)" />
-        <item itemvalue="Python.A (1)" />
-        <item itemvalue="Python.D" />
-        <item itemvalue="Python.C" />
-        <item itemvalue="Python.B" />
+        <item itemvalue="Python.temp" />
+        <item itemvalue="Python.13460_2" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -323,14 +329,154 @@
     <option name="LAST_COMMIT_MESSAGE" value="python commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="61" y="65" key="SettingsEditor" timestamp="1599542323976">
-      <screen x="0" y="23" width="1440" height="806" />
+    <state width="656" height="466" key="DebuggerActiveHint" timestamp="1599849004275">
+      <screen x="0" y="23" width="2560" height="1347" />
     </state>
+    <state width="656" height="466" key="DebuggerActiveHint/-1792.127.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1599849004275" />
+    <state x="794" y="711" width="846" height="343" key="GridCell.Tab.-1.bottom" timestamp="1600240741716">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="794" y="711" width="846" height="343" key="GridCell.Tab.-1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1600240741716" />
+    <state x="794" y="711" width="846" height="343" key="GridCell.Tab.-1.center" timestamp="1600240741715">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="794" y="711" width="846" height="343" key="GridCell.Tab.-1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1600240741715" />
+    <state x="794" y="711" width="846" height="343" key="GridCell.Tab.-1.left" timestamp="1600240741715">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="794" y="711" width="846" height="343" key="GridCell.Tab.-1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1600240741715" />
+    <state x="794" y="711" width="846" height="343" key="GridCell.Tab.-1.right" timestamp="1600240741715">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="794" y="711" width="846" height="343" key="GridCell.Tab.-1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1600240741715" />
+    <state width="875" height="201" key="GridCell.Tab.0.bottom" timestamp="1600614461958">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1259" height="472" key="GridCell.Tab.0.bottom/-1792.127.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1599849095157" />
+    <state width="875" height="344" key="GridCell.Tab.0.bottom/-1792.179.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1600010136005" />
+    <state width="875" height="201" key="GridCell.Tab.0.bottom/-397.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1599969994285" />
+    <state width="939" height="207" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1599645380892" />
+    <state width="939" height="257" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1599812015937" />
+    <state width="875" height="201" key="GridCell.Tab.0.bottom/0.23.1792.1027@0.23.1792.1027" timestamp="1600166902476" />
+    <state width="875" height="201" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1600614461958" />
+    <state width="875" height="201" key="GridCell.Tab.0.center" timestamp="1600614461958">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1259" height="472" key="GridCell.Tab.0.center/-1792.127.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1599849095157" />
+    <state width="875" height="344" key="GridCell.Tab.0.center/-1792.179.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1600010136004" />
+    <state width="875" height="201" key="GridCell.Tab.0.center/-397.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1599969994284" />
+    <state width="939" height="207" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1599645380891" />
+    <state width="939" height="257" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1599812015937" />
+    <state width="875" height="201" key="GridCell.Tab.0.center/0.23.1792.1027@0.23.1792.1027" timestamp="1600166902475" />
+    <state width="875" height="201" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1600614461958" />
+    <state width="875" height="201" key="GridCell.Tab.0.left" timestamp="1600614461957">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1259" height="472" key="GridCell.Tab.0.left/-1792.127.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1599849095157" />
+    <state width="875" height="344" key="GridCell.Tab.0.left/-1792.179.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1600010136004" />
+    <state width="875" height="201" key="GridCell.Tab.0.left/-397.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1599969994283" />
+    <state width="939" height="207" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1599645380891" />
+    <state width="939" height="257" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1599812015936" />
+    <state width="875" height="201" key="GridCell.Tab.0.left/0.23.1792.1027@0.23.1792.1027" timestamp="1600166902475" />
+    <state width="875" height="201" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1600614461957" />
+    <state width="875" height="201" key="GridCell.Tab.0.right" timestamp="1600614461958">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1259" height="472" key="GridCell.Tab.0.right/-1792.127.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1599849095157" />
+    <state width="875" height="344" key="GridCell.Tab.0.right/-1792.179.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1600010136005" />
+    <state width="875" height="201" key="GridCell.Tab.0.right/-397.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1599969994284" />
+    <state width="939" height="207" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1599645380891" />
+    <state width="939" height="257" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1599812015937" />
+    <state width="875" height="201" key="GridCell.Tab.0.right/0.23.1792.1027@0.23.1792.1027" timestamp="1600166902476" />
+    <state width="875" height="201" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1600614461958" />
+    <state x="50" y="643" width="845" height="315" key="GridCell.Tab.1.bottom" timestamp="1600251197031">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1259" height="472" key="GridCell.Tab.1.bottom/-1792.127.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1599849095158" />
+    <state width="875" height="344" key="GridCell.Tab.1.bottom/-1792.179.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1600010136006" />
+    <state width="875" height="344" key="GridCell.Tab.1.bottom/-397.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1599967938912" />
+    <state width="939" height="257" key="GridCell.Tab.1.bottom/0.23.1440.806@0.23.1440.806" timestamp="1599629469951" />
+    <state width="939" height="257" key="GridCell.Tab.1.bottom/0.23.1440.807@0.23.1440.807" timestamp="1599812015939" />
+    <state x="50" y="643" width="845" height="315" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1600251197031" />
+    <state x="50" y="643" width="845" height="315" key="GridCell.Tab.1.center" timestamp="1600251197031">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1259" height="472" key="GridCell.Tab.1.center/-1792.127.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1599849095158" />
+    <state width="875" height="344" key="GridCell.Tab.1.center/-1792.179.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1600010136006" />
+    <state width="875" height="344" key="GridCell.Tab.1.center/-397.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1599967938911" />
+    <state width="939" height="257" key="GridCell.Tab.1.center/0.23.1440.806@0.23.1440.806" timestamp="1599629469951" />
+    <state width="939" height="257" key="GridCell.Tab.1.center/0.23.1440.807@0.23.1440.807" timestamp="1599812015938" />
+    <state x="50" y="643" width="845" height="315" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1600251197031" />
+    <state x="50" y="643" width="845" height="315" key="GridCell.Tab.1.left" timestamp="1600251197031">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1259" height="472" key="GridCell.Tab.1.left/-1792.127.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1599849095157" />
+    <state width="875" height="344" key="GridCell.Tab.1.left/-1792.179.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1600010136005" />
+    <state width="875" height="344" key="GridCell.Tab.1.left/-397.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1599967938911" />
+    <state width="939" height="257" key="GridCell.Tab.1.left/0.23.1440.806@0.23.1440.806" timestamp="1599629469951" />
+    <state width="939" height="257" key="GridCell.Tab.1.left/0.23.1440.807@0.23.1440.807" timestamp="1599812015938" />
+    <state x="50" y="643" width="845" height="315" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1600251197031" />
+    <state x="50" y="643" width="845" height="315" key="GridCell.Tab.1.right" timestamp="1600251197031">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1259" height="472" key="GridCell.Tab.1.right/-1792.127.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1599849095158" />
+    <state width="875" height="344" key="GridCell.Tab.1.right/-1792.179.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1600010136006" />
+    <state width="875" height="344" key="GridCell.Tab.1.right/-397.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1599967938911" />
+    <state width="939" height="257" key="GridCell.Tab.1.right/0.23.1440.806@0.23.1440.806" timestamp="1599629469951" />
+    <state width="939" height="257" key="GridCell.Tab.1.right/0.23.1440.807@0.23.1440.807" timestamp="1599812015939" />
+    <state x="50" y="643" width="845" height="315" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1600251197031" />
+    <state x="50" y="643" width="845" height="315" key="GridCell.Tab.2.bottom" timestamp="1600251197016">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="50" y="643" width="845" height="315" key="GridCell.Tab.2.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1600251197016" />
+    <state x="50" y="643" width="845" height="315" key="GridCell.Tab.2.center" timestamp="1600251197016">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="50" y="643" width="845" height="315" key="GridCell.Tab.2.center/0.23.1792.1097@0.23.1792.1097" timestamp="1600251197016" />
+    <state x="50" y="643" width="845" height="315" key="GridCell.Tab.2.left" timestamp="1600251197015">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="50" y="643" width="845" height="315" key="GridCell.Tab.2.left/0.23.1792.1097@0.23.1792.1097" timestamp="1600251197015" />
+    <state x="50" y="643" width="845" height="315" key="GridCell.Tab.2.right" timestamp="1600251197016">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="50" y="643" width="845" height="315" key="GridCell.Tab.2.right/0.23.1792.1097@0.23.1792.1097" timestamp="1600251197016" />
+    <state x="76" y="77" key="SettingsEditor" timestamp="1599964833813">
+      <screen x="0" y="23" width="1792" height="1027" />
+    </state>
+    <state x="76" y="77" key="SettingsEditor/-397.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1599964833813" />
     <state x="61" y="65" key="SettingsEditor/0.23.1440.806@0.23.1440.806" timestamp="1599542323976" />
-    <state x="225" y="153" key="search.everywhere.popup" timestamp="1599542041073">
-      <screen x="0" y="23" width="1440" height="806" />
+    <state x="794" y="711" width="846" height="359" key="dock-window-1" timestamp="1600240781717">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="225" y="153" key="search.everywhere.popup/0.23.1440.806@0.23.1440.806" timestamp="1599542041073" />
+    <state x="794" y="711" width="846" height="359" key="dock-window-1/0.23.1792.1097@0.23.1792.1097" timestamp="1600240781717" />
+    <state x="50" y="703" width="845" height="331" key="dock-window-2" timestamp="1600240781718">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="50" y="703" width="845" height="331" key="dock-window-2/0.23.1792.1097@0.23.1792.1097" timestamp="1600240781718" />
+    <state x="50" y="688" width="845" height="331" key="dock-window-3" timestamp="1600241320964">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="50" y="688" width="845" height="331" key="dock-window-3/0.23.1792.1097@0.23.1792.1097" timestamp="1600241320964" />
+    <state x="50" y="673" width="845" height="331" key="dock-window-4" timestamp="1600241320964">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="50" y="673" width="845" height="331" key="dock-window-4/0.23.1792.1097@0.23.1792.1097" timestamp="1600241320964" />
+    <state x="50" y="658" width="845" height="331" key="dock-window-5" timestamp="1600241320965">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="50" y="658" width="845" height="331" key="dock-window-5/0.23.1792.1097@0.23.1792.1097" timestamp="1600241320965" />
+    <state x="50" y="643" width="845" height="331" key="dock-window-6" timestamp="1600251259414">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="50" y="643" width="845" height="331" key="dock-window-6/0.23.1792.1097@0.23.1792.1097" timestamp="1600251259414" />
+    <state x="280" y="199" width="834" height="921" key="search.everywhere.popup" timestamp="1600329475570">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="280" y="188" width="834" height="862" key="search.everywhere.popup/-397.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1599969988105" />
+    <state x="225" y="153" width="670" height="676" key="search.everywhere.popup/0.23.1440.806@0.23.1440.806" timestamp="1599555231843" />
+    <state x="225" y="153" width="670" height="677" key="search.everywhere.popup/0.23.1440.807@0.23.1440.807" timestamp="1599743083589" />
+    <state x="280" y="199" width="834" height="921" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1600329475570" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -340,7 +486,7 @@
           <line>47</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/python/PStest/kakao_intern_190630/2.py</url>
+          <url>file://$PROJECT_DIR$/python/PStest/190630_k_i/2.py</url>
           <line>56</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -436,6 +582,62 @@
           <url>file://$PROJECT_DIR$/python/Codeforces/191025_DIV2/B.py</url>
           <line>20</line>
           <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/PStest/2020_k/1.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/PStest/2020_k/1_2.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/PStest/2020_k/3.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/PStest/2020_k/4.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/PStest/2021_k/1.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/PStest/2021_k/!3.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/PStest/2021_k/!6.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/PStest/2020_L/2.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/PStest/2020_L/3.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <condition expression="cnt == 2" language="Python" />
+          <url>file://$PROJECT_DIR$/python/PStest/2020_L/4.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/BOJ/13460_2.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="85" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
