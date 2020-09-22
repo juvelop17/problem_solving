@@ -1,37 +1,44 @@
-import sys
+
+
 import time
 
-
 prev_time = time.time_ns()
-# sys.stdin = open('input1.txt','r')
 
 
-def solution():
-    sum_cnt = 0
-
-    for a in A_list:
-        remain = a
-
-        # 감독
-        remain -= B
-        sum_cnt += 1
-        if remain <= 0:
-            continue
-
-        # 부감독
-        sum_cnt += remain // C
-        if remain % C != 0:
-            sum_cnt += 1
-
-    return sum_cnt
 
 
-N = int(sys.stdin.readline().strip())
-A_list = list(map(int,sys.stdin.readline().strip().split()))
-B, C = map(int,sys.stdin.readline().strip().split())
+import sys
+
+# sys.stdin = open('input.txt','r')
+read = sys.stdin.readline
 
 
-print(solution())
+
+def solution(A, B, C):
+    cnt = 0
+
+    for a in A:
+        num = a - B
+        cnt += 1
+        if num > 0:
+            cnt += num // C
+            if num % C != 0:
+                cnt += 1
+    return cnt
+
+N = int(read().strip())
+A = list(map(int,read().split()))
+B, C = map(int, read().split())
+
+# print(N, A, B, C)
+
+print(solution(A,B,C))
 
 
-# print('time',time.time_ns()-prev_time)
+
+
+
+
+
+
+
