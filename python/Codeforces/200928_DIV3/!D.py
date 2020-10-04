@@ -8,6 +8,7 @@ import math
 
 def solution(num_list):
 
+    return
 
 n = int(read())
 for _ in range(n):

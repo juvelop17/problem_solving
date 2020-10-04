@@ -2,27 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc20e4bc-2b40-4fd4-b2b4-4ed1af8ecc06" name="Default" comment="python commit">
-      <change afterPath="$PROJECT_DIR$/python/BOJ/1922.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/Codeforces/200928_DIV3/!D.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/Codeforces/200928_DIV3/A.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/Codeforces/200928_DIV3/B.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/Codeforces/200928_DIV3/C.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/Codeforces/200928_DIV3/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/PStest/200927_N/!3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/PStest/200927_N/!3_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/PStest/200927_N/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/algorithm/MST.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/algorithm/priority_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/Codeforces/200930_GraknForces2020/!C.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/Codeforces/200930_GraknForces2020/A.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/Codeforces/200930_GraknForces2020/B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/Codeforces/200930_GraknForces2020/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/PStest/200929_11st/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/PStest/200929_11st/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/PStest/200929_11st/3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/BOJ/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/BOJ/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/PStest/190925_NTS/!3.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/200925_NTS/!3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/PStest/190925_NTS/!3_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/200925_NTS/!3_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/PStest/190925_NTS/!4.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/200925_NTS/!4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/PStest/190925_NTS/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/200925_NTS/1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/PStest/190925_NTS/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/200925_NTS/2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/PStest/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/PStest/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/algorithm/segment_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/algorithm/segment_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Codeforces/200928_DIV3/!D.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/Codeforces/200928_DIV3/!D.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,11 +65,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/Codeforces/200928_DIV3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/Codeforces/200930_GraknForces2020" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/Codeforces/200928_DIV3/A.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/Codeforces/200930_GraknForces2020/A.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -98,11 +86,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/Codeforces/200928_DIV3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/Codeforces/200930_GraknForces2020" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/Codeforces/200928_DIV3/B.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/Codeforces/200930_GraknForces2020/B.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,7 +120,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="!3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="!C" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="problem_solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -140,11 +128,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/PStest/200927_N" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/Codeforces/200930_GraknForces2020" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/PStest/200927_N/!3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/Codeforces/200930_GraknForces2020/!C.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,7 +141,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="!3_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="trie" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="problem_solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -161,11 +149,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/PStest/200927_N" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/algorithm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/PStest/200927_N/!3_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/algorithm/trie.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,19 +163,16 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.!3" />
-      <item itemvalue="Python.!3_2" />
       <item itemvalue="Python.A" />
-      <item itemvalue="Python.!B" />
+      <item itemvalue="Python.B" />
+      <item itemvalue="Python.C" />
       <item itemvalue="Python.!C" />
+      <item itemvalue="Python.trie" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.!C" />
-        <item itemvalue="Python.!B" />
-        <item itemvalue="Python.A" />
-        <item itemvalue="Python.!3_2" />
-        <item itemvalue="Python.!3" />
+        <item itemvalue="Python.trie" />
       </list>
     </recent_temporary>
   </component>
@@ -314,45 +299,49 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="775" y="532" width="844" height="287" key="GridCell.Tab.-1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1600842412962" />
-    <state width="1259" height="342" key="GridCell.Tab.0.bottom" timestamp="1601286637390">
+    <state width="1259" height="496" key="GridCell.Tab.0.bottom" timestamp="1601499372268">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="1259" height="472" key="GridCell.Tab.0.bottom/-1792.127.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1599849095157" />
     <state width="875" height="344" key="GridCell.Tab.0.bottom/-1792.179.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1600010136005" />
-    <state width="1259" height="342" key="GridCell.Tab.0.bottom/-1792.23.1792.1097/0.23.2560.1417@0.23.2560.1417" timestamp="1601286637390" />
+    <state width="1259" height="496" key="GridCell.Tab.0.bottom/-1792.179.1792.1097/0.23.2560.1417@0.23.2560.1417" timestamp="1601499372268" />
+    <state width="1259" height="342" key="GridCell.Tab.0.bottom/-1792.23.1792.1097/0.23.2560.1417@0.23.2560.1417" timestamp="1601347209273" />
     <state width="875" height="201" key="GridCell.Tab.0.bottom/-397.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1599969994285" />
     <state width="939" height="207" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1599645380892" />
     <state width="939" height="257" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1599812015937" />
     <state width="875" height="201" key="GridCell.Tab.0.bottom/0.23.1792.1027@0.23.1792.1027" timestamp="1600166902476" />
     <state width="875" height="342" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1601111968681" />
-    <state width="1259" height="342" key="GridCell.Tab.0.center" timestamp="1601286637389">
+    <state width="1259" height="496" key="GridCell.Tab.0.center" timestamp="1601499372268">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="1259" height="472" key="GridCell.Tab.0.center/-1792.127.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1599849095157" />
     <state width="875" height="344" key="GridCell.Tab.0.center/-1792.179.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1600010136004" />
-    <state width="1259" height="342" key="GridCell.Tab.0.center/-1792.23.1792.1097/0.23.2560.1417@0.23.2560.1417" timestamp="1601286637389" />
+    <state width="1259" height="496" key="GridCell.Tab.0.center/-1792.179.1792.1097/0.23.2560.1417@0.23.2560.1417" timestamp="1601499372268" />
+    <state width="1259" height="342" key="GridCell.Tab.0.center/-1792.23.1792.1097/0.23.2560.1417@0.23.2560.1417" timestamp="1601347209272" />
     <state width="875" height="201" key="GridCell.Tab.0.center/-397.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1599969994284" />
     <state width="939" height="207" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1599645380891" />
     <state width="939" height="257" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1599812015937" />
     <state width="875" height="201" key="GridCell.Tab.0.center/0.23.1792.1027@0.23.1792.1027" timestamp="1600166902475" />
     <state width="875" height="342" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1601111968680" />
-    <state width="1259" height="342" key="GridCell.Tab.0.left" timestamp="1601286637389">
+    <state width="1259" height="496" key="GridCell.Tab.0.left" timestamp="1601499372267">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="1259" height="472" key="GridCell.Tab.0.left/-1792.127.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1599849095157" />
     <state width="875" height="344" key="GridCell.Tab.0.left/-1792.179.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1600010136004" />
-    <state width="1259" height="342" key="GridCell.Tab.0.left/-1792.23.1792.1097/0.23.2560.1417@0.23.2560.1417" timestamp="1601286637389" />
+    <state width="1259" height="496" key="GridCell.Tab.0.left/-1792.179.1792.1097/0.23.2560.1417@0.23.2560.1417" timestamp="1601499372267" />
+    <state width="1259" height="342" key="GridCell.Tab.0.left/-1792.23.1792.1097/0.23.2560.1417@0.23.2560.1417" timestamp="1601347209272" />
     <state width="875" height="201" key="GridCell.Tab.0.left/-397.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1599969994283" />
     <state width="939" height="207" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1599645380891" />
     <state width="939" height="257" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1599812015936" />
     <state width="875" height="201" key="GridCell.Tab.0.left/0.23.1792.1027@0.23.1792.1027" timestamp="1600166902475" />
     <state width="875" height="342" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1601111968680" />
-    <state width="1259" height="342" key="GridCell.Tab.0.right" timestamp="1601286637390">
+    <state width="1259" height="496" key="GridCell.Tab.0.right" timestamp="1601499372268">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="1259" height="472" key="GridCell.Tab.0.right/-1792.127.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1599849095157" />
     <state width="875" height="344" key="GridCell.Tab.0.right/-1792.179.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1600010136005" />
-    <state width="1259" height="342" key="GridCell.Tab.0.right/-1792.23.1792.1097/0.23.2560.1417@0.23.2560.1417" timestamp="1601286637390" />
+    <state width="1259" height="496" key="GridCell.Tab.0.right/-1792.179.1792.1097/0.23.2560.1417@0.23.2560.1417" timestamp="1601499372268" />
+    <state width="1259" height="342" key="GridCell.Tab.0.right/-1792.23.1792.1097/0.23.2560.1417@0.23.2560.1417" timestamp="1601347209273" />
     <state width="875" height="201" key="GridCell.Tab.0.right/-397.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1599969994284" />
     <state width="939" height="207" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1599645380891" />
     <state width="939" height="257" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1599812015937" />
@@ -646,6 +635,21 @@
           <url>file://$PROJECT_DIR$/python/Codeforces/200928_DIV3/C.py</url>
           <line>9</line>
           <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/PStest/200929_11st/1.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/Codeforces/200930_GraknForces2020/A.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/Codeforces/200930_GraknForces2020/B.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="105" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
