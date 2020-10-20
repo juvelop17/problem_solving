@@ -1,83 +1,78 @@
-import sys
 import time
 
-prev_time = time.time_ns()
-# sys.stdin = open('input1.txt','r')
-read = sys.stdin.readline
+ptime = time.time_ns()
+
+import sys
+sys.stdin = open('input.txt','r')
 
 
-def solution():
-    tetro1 = [[[1, 1, 1, 1]],[[1],[1],[1],[1]]]  # 회전
-    tetro2 = [[1, 1], [1, 1]]
-    tetro3 = [[[1, 1], [1, 0], [1, 0]], [[1, 1], [0, 1], [0, 1]],
-              [[1, 0], [1, 0], [1, 1]], [[0, 1], [0, 1], [1, 1]],
-              [[1, 0], [1, 1], [1, 0]], [[0, 1], [1, 1], [0, 1]],
-              [[1, 0], [1, 1], [0, 1]], [[0, 1], [1, 1], [1, 0]]]
-    tetro4 = [[[1, 1, 1], [0, 0, 1]],[[1, 1, 1], [1, 0, 0]],
-              [[0, 0, 1], [1, 1, 1]],[[1, 0, 0], [1, 1, 1]],
-              [[1, 1, 1], [0, 1, 0]],[[0, 1, 0], [1, 1, 1]],
-              [[0, 1, 1], [1, 1, 0]],[[1, 1, 0], [0, 1, 1]]]
-
-    maxScore = []
-    for t in tetro1:
-        maxScore.append(getMaxScore(t))
-    maxScore.append(getMaxScore(tetro2))
-    for t in tetro3:
-        maxScore.append(getMaxScore(t))
-    for t in tetro4:
-        maxScore.append(getMaxScore(t))
-
-    return (max(maxScore))
 
 
-def getMaxScore(tetro):
-    len_r = len(tetro)
-    len_c = len(tetro[0])
+di = [-1,1,0,0]
+dj = [0,0,-1,1]
 
-    max_sum = 0
+N, M = map(int,input().split())
+mp = [list(map(int,input().split())) for _ in range(N)]
+visited = [[0 for _ in range(M)] for _ in range(N)]
+
+max_result = -1
+max_value = max(map(max,mp))
+
+def printMap(mp):
     for i in range(N):
         for j in range(M):
-            sum = 0
-            if not checkStatus(i + len_r - 1, j + len_c - 1):
-                continue
-            for r in range(len_r):
-                for c in range(len_c):
-                    if tetro[r][c] == 1:
-                        sum += _map[i + r][j + c]
-            if sum > max_sum:
-                max_sum = sum
-
-    return max_sum
-
-
-def checkStatus(i, j):
-    return i >= 0 and i < N and j >= 0 and j < M
-
-
-def printTetro(tetro):
-    len_r = len(tetro)
-    len_c = len(tetro[0])
-    for i in range(len_r):
-        for j in range(len_c):
-            print(tetro[i][j], end='')
+            print(mp[i][j],end=' ')
         print()
     print()
 
+def checkRange(i,j):
+    return i >= 0 and i < N and j >= 0 and j < M
 
-N, M = map(int, read().strip().split())
-_map = []
-for _ in range(N):
-    _map.append(list(map(int, read().strip().split())))
+def dfs(i,j,k,sum):
+    global max_result
+
+    if k == 3:
+        # print('return',sum)
+        # print('i,j,k,sum', i, j, k, sum)
+        # printMap(visited)
+        if sum > max_result:
+            max_result = sum
+        return 1
+
+    if (4 - k) * max_value + sum <= max_result:
+        return
+
+    for d in range(4):
+        ni = i + di[d]
+        nj = j + dj[d]
+        if not checkRange(ni, nj) or visited[ni][nj]:
+            continue
+        if k == 1:
+            visited[ni][nj] = 1
+            sum += mp[ni][nj]
+            dfs(i, j, k + 1, sum)
+            sum -= mp[ni][nj]
+            visited[ni][nj] = 0
+        visited[ni][nj] = 1
+        sum += mp[ni][nj]
+        dfs(ni, nj, k + 1, sum)
+        sum -= mp[ni][nj]
+        visited[ni][nj] = 0
+
+def solution():
+    for i in range(0,N):
+        for j in range(0,M):
+            visited[i][j] = 1
+            dfs(i,j,0,mp[i][j])
+            visited[i][j] = 0
+
+    return max_result
+
 
 print(solution())
 
-# print('time',time.time_ns()-prev_time)
 
 
 
-
-
-
-
-
+print('time',time.time_ns()-ptime)
 
