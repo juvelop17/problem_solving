@@ -14,10 +14,10 @@
             "args": [
                 "-std=c++14",
                 // "-stdlib=libc++",
+                "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}.out",
-                "--debug"
+                "${fileDirname}/${fileBasenameNoExtension}.out"
             ],
             "group": {
                 "kind": "build",
