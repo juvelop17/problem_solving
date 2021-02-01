@@ -1,12 +1,12 @@
 
 # 참조할 숫자 배열 인덱스(0부터 시작) : start_num, end_num
-def construct(node_num, start_num, end_num):
-    if start_num == end_num:
-        tree_list[node_num] = num_list[start_num]
-        return tree_list[node_num]
-    mid_num = int((start_num + end_num)/2)
-    tree_list[node_num] = construct(node_num*2,start_num,mid_num) + construct(node_num*2+1,mid_num+1,end_num)
-    return tree_list[node_num]
+def construct(node, start, end):
+    if start == end:
+        tree_list[node] = num_list[start]
+        return tree_list[node]
+    mid = int((start + end)/2)
+    tree_list[node] = construct(node*2,start,mid) + construct(node*2+1,mid+1,end)
+    return tree_list[node]
 
 # 구할 범위 : l,r
 # 트리 시작 인덱스 번호 : node
@@ -35,22 +35,21 @@ def update(node, node_l, node_r, index, value):
 
 def solution():
     construct(1,0,len(num_list)-1)
-    print('tree_list',tree_list[:20])
-
-    print(num_list)
-    print('[0:2]',sum(0,2,1,0,len(num_list)-1))
-    print('[1:2]',sum(1,2,1,0,len(num_list)-1))
-    print('[1:3]',sum(1,3,1,0,len(num_list)-1))
-    print('[1:3]',sum(1,3,1,1,len(num_list)))
+    # print('tree_list',tree_list[:20])
+    # print(num_list)
+    # print('[0:2]',sum(0,2,1,0,len(num_list)-1))
+    # print('[1:2]',sum(1,2,1,0,len(num_list)-1))
+    # print('[1:3]',sum(1,3,1,0,len(num_list)-1))
+    # print('[1:3]',sum(1,3,1,1,len(num_list)))
 
     print('3번째 항목 6으로 변경(0부터 시작)')
     update(1,0,len(num_list)-1,3,6)
-    print('tree_list',tree_list[:20])
+    # print('tree_list',tree_list[:20])
     print('3번째 항목 6으로 변경(1부터 시작)')
     update(1,1,len(num_list),3,6)
-    print('tree_list',tree_list[:20])
+    # print('tree_list',tree_list[:20])
 
-N = 5
+N = 10**6
 num_list = [i for i in range(N)]
 tree_list = [0 for _ in range(10**7)]
 

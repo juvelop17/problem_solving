@@ -2,54 +2,126 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc20e4bc-2b40-4fd4-b2b4-4ed1af8ecc06" name="Default" comment="python commit">
-      <change afterPath="$PROJECT_DIR$/python/BOJ/!17822.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/BOJ/14501_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/BOJ/14502_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/BOJ/14503_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/BOJ/14888_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/BOJ/14890_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/BOJ/17140.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/BOJ/17142.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/BOJ/17143.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/BOJ/17144.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/BOJ/17779.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/BOJ/17837.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/BOJ/19237.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/BOJ/template.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/PStest/201009_c/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/PStest/201009_c/2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/PStest/201009_c/3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/PStest/201009_c/4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/PStest/201009_c/4_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/PStest/201009_c/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/PStest/201009_c/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/algorithm/combination_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/algorithm/permutation_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#680_DIV2/A.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#680_DIV2/B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#680_DIV2/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#680_DIV2/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#681_DIV2/!B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#681_DIV2/!B_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#681_DIV2/!C.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#681_DIV2/A.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#681_DIV2/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#683_DIV2/!A.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#683_DIV2/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#684_DIV2/!A.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#684_DIV2/!B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#684_DIV2/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#685_DIV2/!A.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#685_DIV2/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#687_DIV2/!C.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#687_DIV2/A.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#687_DIV2/B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#687_DIV2/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#687_DIV2/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#689_DIV2/!B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#689_DIV2/A.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#689_DIV2/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#690_DIV3/!E.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#690_DIV3/A.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#690_DIV3/B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#690_DIV3/C.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#690_DIV3/D.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#690_DIV3/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#690_DIV3/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#E99_DIV2/!B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#E99_DIV2/A.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#E99_DIV2/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#E99_DIV2/template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#E99_DIV2/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#Global Round 12/!B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#Global Round 12/A.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeforces/#Global Round 12/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PStest/201105_bagle/!3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PStest/201105_bagle/!3_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PStest/201105_bagle/!3_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PStest/201105_bagle/!3_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PStest/201105_bagle/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PStest/201105_bagle/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PStest/201105_bagle/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PStest/201105_bagle/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PStest/201114_11st/!1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PStest/201114_11st/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PStest/201114_11st/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PStest/201114_11st/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PStest/201114_11st/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PStest/201114_kakao_enter/!2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PStest/201114_kakao_enter/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PStest/201114_kakao_enter/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PStest/201114_kakao_enter/3_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PStest/201114_kakao_enter/3_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PStest/201114_kakao_enter/3_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PStest/2019_summer winter coding/!1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PStest/2019_summer winter coding/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PStest/2020_winter coding/!2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PStest/2020_winter coding/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PStest/2020_winter coding/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PStest/2020_winter coding/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/jongmanbook/ch6/boardcover/!boardcover.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/jongmanbook/ch6/boardcover/boardcover.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/jongmanbook/ch6/boardcover/boardcover.in2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/jongmanbook/ch6/boardcover/example1.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/jongmanbook/ch6/boardcover/example2.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/jongmanbook/ch6/boardcover/example3.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/jongmanbook/ch6/boggle/boggle.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/jongmanbook/ch6/boggle/boggle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/jongmanbook/ch6/boggle/check_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/jongmanbook/ch6/picnic/check_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/jongmanbook/ch6/picnic/picnic.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/jongmanbook/ch6/picnic/picnic.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/BOJ/!17144.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/BOJ/14500.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/BOJ/14500.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/BOJ/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/BOJ/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/BOJ/temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/BOJ/temp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Codeforces/191022_DIV3/A.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/Codeforces/#595_DIV3/A.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Codeforces/191022_DIV3/B.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/Codeforces/#595_DIV3/B.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Codeforces/191022_DIV3/C.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/Codeforces/#595_DIV3/C.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Codeforces/191022_DIV3/D.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/Codeforces/#595_DIV3/D.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Codeforces/191022_DIV3/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/Codeforces/#595_DIV3/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Codeforces/191025_DIV2/A.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/Codeforces/Educational_#75_DIV2/A.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Codeforces/191025_DIV2/B.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/Codeforces/Educational_#75_DIV2/B.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Codeforces/191025_DIV2/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/Codeforces/Educational_#75_DIV2/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Codeforces/200928_DIV3/!D.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/Codeforces/#674_DIV3/!D.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Codeforces/200928_DIV3/A.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/Codeforces/#674_DIV3/A.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Codeforces/200928_DIV3/B.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/Codeforces/#674_DIV3/B.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Codeforces/200928_DIV3/C.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/Codeforces/#674_DIV3/C.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Codeforces/200928_DIV3/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/Codeforces/#674_DIV3/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Codeforces/200930_GraknForces2020/!C.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/Codeforces/GraknForces2020/!C.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Codeforces/200930_GraknForces2020/A.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/Codeforces/GraknForces2020/A.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Codeforces/200930_GraknForces2020/B.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/Codeforces/GraknForces2020/B.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Codeforces/200930_GraknForces2020/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/Codeforces/GraknForces2020/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Codeforces/201005_DIV2/!B.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/Codeforces/#675_DIV2/!B.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Codeforces/201005_DIV2/A.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/Codeforces/#675_DIV2/A.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Codeforces/201005_DIV2/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/Codeforces/#675_DIV2/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/#E97_DIV2/!A" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/#E97_DIV2/!A.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/#E97_DIV2/!B.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/#E97_DIV2/.cph/.!A.cpp_44417646ba0018f511eabcbac01be330.prob" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/#E97_DIV2/.cph/.!B.cpp_5b958c2333ebc8225d3bc6d9d05ff870.prob" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191022_DIV3/!B1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191022_DIV3/A.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191101_DIV2/A.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191101_DIV2/B.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191104_DIV3/A" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191104_DIV3/A.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191104_DIV3/B" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191104_DIV3/B.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191104_DIV3/C.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191104_DIV3/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191107_DIV2/!A" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191107_DIV2/!B" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191107_DIV2/!C" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191107_DIV2/!C.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191107_DIV2/!C_2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191107_DIV2/A.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191107_DIV2/B_1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191107_DIV2/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191113_DIV2/!C.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191113_DIV2/A.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191113_DIV2/B.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191117_DIV2/!B.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191117_DIV2/A" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191117_DIV2/A.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191124_DIV2/!B.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191124_DIV2/A.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191124_DIV2/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191127_DIV2/!C.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191127_DIV2/A.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191127_DIV2/B.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191129_DIV2/A.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191129_DIV2/B.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/191129_DIV2/C.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Educational_#75_DIV2/A.py" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/#E75_DIV2/A.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Educational_#75_DIV2/B.py" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/#E75_DIV2/B.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Educational_#75_DIV2/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/#E75_DIV2/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/segment_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/segment_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/jongmanbook/ch1/ch1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/#680_DIV2/!C.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,25 +150,26 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/python/BOJ" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/book/jongmanbook/ch6/boardcover" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/python/BOJ" />
-      <recent name="$PROJECT_DIR$/python/Codeforces/191025_DIV2" />
-      <recent name="C:\Users\Juvelop\PycharmProjects\problem_solving_python\C" />
-      <recent name="C:\Users\Juvelop\PycharmProjects\problem_solving_python" />
-      <recent name="C:\Users\Juvelop\PycharmProjects\problem_solving_python\Kakao\kakao_intern_190630" />
+      <recent name="$PROJECT_DIR$/book/jongmanbook/ch6/boardcover" />
+      <recent name="$PROJECT_DIR$/book/jongmanbook/ch6/picnic" />
+      <recent name="$PROJECT_DIR$/book/jongmanbook/ch6/boggle" />
+      <recent name="$PROJECT_DIR$/book/jongmanbook/ch6" />
+      <recent name="$PROJECT_DIR$/Codeforces" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/book/jongmanbook/ch6/boggle" />
       <recent name="C:\Users\Juvelop\PycharmProjects\problem_solving_python\python" />
       <recent name="C:\Users\Juvelop\PycharmProjects\problem_solving_python" />
       <recent name="C:\Users\Juvelop\PycharmProjects\problem_solving_python\Kakao" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.!19237">
-    <configuration name="17779" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.!boardcover">
+    <configuration name="!boardcover" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="problem_solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,11 +177,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/BOJ" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/book/jongmanbook/ch6/boardcover" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/BOJ/17779.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/book/jongmanbook/ch6/boardcover/!boardcover.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -117,7 +190,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="17837" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="check_file (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="problem_solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -125,11 +198,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/BOJ" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/book/jongmanbook/ch6/picnic" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/BOJ/17837.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/book/jongmanbook/ch6/picnic/check_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,7 +211,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="19237" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="check_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="problem_solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -146,11 +219,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/BOJ" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/book/jongmanbook/ch6/boggle" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/BOJ/19237.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/book/jongmanbook/ch6/boggle/check_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,7 +232,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="!17822" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="picnic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="problem_solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -167,11 +240,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/BOJ" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/book/jongmanbook/ch6/picnic" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/BOJ/!17822.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/book/jongmanbook/ch6/picnic/picnic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,7 +253,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="temp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="visualize" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="problem_solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -188,11 +261,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/BOJ" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/book/jongmanbook/ch6/boardcover" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/BOJ/temp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/book/jongmanbook/ch6/boardcover/visualize.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -202,19 +275,44 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.17779" />
-      <item itemvalue="Python.17837" />
-      <item itemvalue="Python.!17822" />
-      <item itemvalue="Python.!19237" />
-      <item itemvalue="Python.temp" />
+      <item itemvalue="Python.check_file" />
+      <item itemvalue="Python.picnic" />
+      <item itemvalue="Python.check_file (1)" />
+      <item itemvalue="Python.visualize" />
+      <item itemvalue="Python.!boardcover" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.!19237" />
-        <item itemvalue="Python.!17822" />
-        <item itemvalue="Python.temp" />
+        <item itemvalue="Python.!boardcover" />
+        <item itemvalue="Python.visualize" />
+        <item itemvalue="Python.check_file (1)" />
+        <item itemvalue="Python.picnic" />
+        <item itemvalue="Python.check_file" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="DockerTest" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="DockerTest" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Containers" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -319,198 +417,65 @@
     <option name="LAST_COMMIT_MESSAGE" value="python commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1747" y="631" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1602956453894">
+    <state x="3281" y="387" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1609051443088">
+      <screen x="1792" y="-295" width="2560" height="1415" />
+    </state>
+    <state x="3281" y="387" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/1792.-295.2560.1415/0.25.1792.1095@1792.-295.2560.1415" timestamp="1609051443088" />
+    <state x="911" y="380" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612096074168">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state x="911" y="380" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1792.1095@0.25.1792.1095" timestamp="1612096074168" />
+    <state x="932" y="325" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612090770876">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state x="932" y="325" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1792.1095@0.25.1792.1095" timestamp="1612090770876" />
+    <state x="3539" y="311" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1609056286464">
+      <screen x="1792" y="-295" width="2560" height="1415" />
+    </state>
+    <state x="3539" y="311" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/1792.-295.2560.1415/0.25.1792.1095@1792.-295.2560.1415" timestamp="1609056286464" />
+    <state width="1174" height="248" key="GridCell.Tab.0.bottom" timestamp="1612178738968">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state width="1174" height="248" key="GridCell.Tab.0.bottom/0.25.1792.1095@0.25.1792.1095" timestamp="1612178738968" />
+    <state width="1259" height="295" key="GridCell.Tab.0.bottom/0.25.2560.1415/-1792.345.1792.1095@0.25.2560.1415" timestamp="1607937500064" />
+    <state width="1259" height="491" key="GridCell.Tab.0.bottom/1792.-295.2560.1415/0.25.1792.1095@1792.-295.2560.1415" timestamp="1612102491417" />
+    <state width="1174" height="248" key="GridCell.Tab.0.center" timestamp="1612178738967">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state width="1174" height="248" key="GridCell.Tab.0.center/0.25.1792.1095@0.25.1792.1095" timestamp="1612178738967" />
+    <state width="1259" height="295" key="GridCell.Tab.0.center/0.25.2560.1415/-1792.345.1792.1095@0.25.2560.1415" timestamp="1607937500064" />
+    <state width="1259" height="491" key="GridCell.Tab.0.center/1792.-295.2560.1415/0.25.1792.1095@1792.-295.2560.1415" timestamp="1612102491416" />
+    <state width="1174" height="248" key="GridCell.Tab.0.left" timestamp="1612178738966">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state width="1174" height="248" key="GridCell.Tab.0.left/0.25.1792.1095@0.25.1792.1095" timestamp="1612178738966" />
+    <state width="1259" height="295" key="GridCell.Tab.0.left/0.25.2560.1415/-1792.345.1792.1095@0.25.2560.1415" timestamp="1607937500063" />
+    <state width="1259" height="491" key="GridCell.Tab.0.left/1792.-295.2560.1415/0.25.1792.1095@1792.-295.2560.1415" timestamp="1612102491415" />
+    <state width="1174" height="248" key="GridCell.Tab.0.right" timestamp="1612178738967">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state width="1174" height="248" key="GridCell.Tab.0.right/0.25.1792.1095@0.25.1792.1095" timestamp="1612178738967" />
+    <state width="1259" height="295" key="GridCell.Tab.0.right/0.25.2560.1415/-1792.345.1792.1095@0.25.2560.1415" timestamp="1607937500064" />
+    <state width="1259" height="491" key="GridCell.Tab.0.right/1792.-295.2560.1415/0.25.1792.1095@1792.-295.2560.1415" timestamp="1612102491417" />
+    <state x="138" y="389" key="SettingsEditor" timestamp="1612083178826">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state x="138" y="389" key="SettingsEditor/0.25.1792.1095@0.25.1792.1095" timestamp="1612083178826" />
+    <state x="1989" y="176" key="SettingsEditor/1792.-295.2560.1415/0.25.1792.1095@1792.-295.2560.1415" timestamp="1609301724982" />
+    <state x="921" y="170" width="846" height="807" key="find.popup" timestamp="1612089099674">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state x="921" y="170" width="846" height="807" key="find.popup/0.25.1792.1095@0.25.1792.1095" timestamp="1612089099674" />
+    <state x="1316" y="212" width="1208" height="1042" key="find.popup/0.25.2560.1415/-1792.345.1792.1095@0.25.2560.1415" timestamp="1606638064396" />
+    <state x="1570" y="453" width="700" height="530" key="recent.locations.popup" timestamp="1606748060310">
       <screen x="0" y="25" width="2560" height="1415" />
     </state>
-    <state x="1747" y="631" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.25.2560.1415/-1792.25.1792.1095@0.25.2560.1415" timestamp="1602956453894" />
-    <state width="656" height="466" key="DebuggerActiveHint" timestamp="1599849004275">
-      <screen x="0" y="23" width="2560" height="1347" />
+    <state x="1570" y="453" width="700" height="530" key="recent.locations.popup/0.25.2560.1415/-1792.345.1792.1095@0.25.2560.1415" timestamp="1606748060310" />
+    <state x="2192" y="-69" width="1193" height="1189" key="search.everywhere.popup" timestamp="1609301650196">
+      <screen x="1792" y="-295" width="2560" height="1415" />
     </state>
-    <state width="656" height="466" key="DebuggerActiveHint/-1792.127.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1599849004275" />
-    <state x="775" y="532" width="844" height="287" key="GridCell.Tab.-1.bottom" timestamp="1600842412962">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state x="775" y="532" width="844" height="287" key="GridCell.Tab.-1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1600842412962" />
-    <state x="775" y="532" width="844" height="287" key="GridCell.Tab.-1.center" timestamp="1600842412962">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state x="775" y="532" width="844" height="287" key="GridCell.Tab.-1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1600842412962" />
-    <state x="775" y="532" width="844" height="287" key="GridCell.Tab.-1.left" timestamp="1600842412961">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state x="775" y="532" width="844" height="287" key="GridCell.Tab.-1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1600842412961" />
-    <state x="775" y="532" width="844" height="287" key="GridCell.Tab.-1.right" timestamp="1600842412962">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state x="775" y="532" width="844" height="287" key="GridCell.Tab.-1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1600842412962" />
-    <state width="875" height="247" key="GridCell.Tab.0.bottom" timestamp="1603192637499">
-      <screen x="0" y="25" width="1792" height="1095" />
-    </state>
-    <state width="1259" height="472" key="GridCell.Tab.0.bottom/-1792.127.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1599849095157" />
-    <state width="875" height="344" key="GridCell.Tab.0.bottom/-1792.179.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1600010136005" />
-    <state width="1259" height="496" key="GridCell.Tab.0.bottom/-1792.179.1792.1097/0.23.2560.1417@0.23.2560.1417" timestamp="1601499372268" />
-    <state width="1259" height="342" key="GridCell.Tab.0.bottom/-1792.23.1792.1097/0.23.2560.1417@0.23.2560.1417" timestamp="1601347209273" />
-    <state width="875" height="201" key="GridCell.Tab.0.bottom/-397.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1599969994285" />
-    <state width="939" height="207" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1599645380892" />
-    <state width="939" height="257" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1599812015937" />
-    <state width="875" height="201" key="GridCell.Tab.0.bottom/0.23.1792.1027@0.23.1792.1027" timestamp="1600166902476" />
-    <state width="875" height="342" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1601111968681" />
-    <state width="875" height="247" key="GridCell.Tab.0.bottom/0.25.1792.1095@0.25.1792.1095" timestamp="1603192637499" />
-    <state width="1259" height="249" key="GridCell.Tab.0.bottom/0.25.2560.1415/-1792.164.1792.1095@0.25.2560.1415" timestamp="1602516147918" />
-    <state width="1259" height="336" key="GridCell.Tab.0.bottom/0.25.2560.1415/-1792.25.1792.1095@0.25.2560.1415" timestamp="1602965623528" />
-    <state width="1259" height="339" key="GridCell.Tab.0.bottom/1792.-418.2560.1415/0.25.1792.1095@1792.-418.2560.1415" timestamp="1601968391981" />
-    <state width="875" height="247" key="GridCell.Tab.0.center" timestamp="1603192637498">
-      <screen x="0" y="25" width="1792" height="1095" />
-    </state>
-    <state width="1259" height="472" key="GridCell.Tab.0.center/-1792.127.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1599849095157" />
-    <state width="875" height="344" key="GridCell.Tab.0.center/-1792.179.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1600010136004" />
-    <state width="1259" height="496" key="GridCell.Tab.0.center/-1792.179.1792.1097/0.23.2560.1417@0.23.2560.1417" timestamp="1601499372268" />
-    <state width="1259" height="342" key="GridCell.Tab.0.center/-1792.23.1792.1097/0.23.2560.1417@0.23.2560.1417" timestamp="1601347209272" />
-    <state width="875" height="201" key="GridCell.Tab.0.center/-397.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1599969994284" />
-    <state width="939" height="207" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1599645380891" />
-    <state width="939" height="257" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1599812015937" />
-    <state width="875" height="201" key="GridCell.Tab.0.center/0.23.1792.1027@0.23.1792.1027" timestamp="1600166902475" />
-    <state width="875" height="342" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1601111968680" />
-    <state width="875" height="247" key="GridCell.Tab.0.center/0.25.1792.1095@0.25.1792.1095" timestamp="1603192637498" />
-    <state width="1259" height="249" key="GridCell.Tab.0.center/0.25.2560.1415/-1792.164.1792.1095@0.25.2560.1415" timestamp="1602516147918" />
-    <state width="1259" height="336" key="GridCell.Tab.0.center/0.25.2560.1415/-1792.25.1792.1095@0.25.2560.1415" timestamp="1602965623526" />
-    <state width="1259" height="339" key="GridCell.Tab.0.center/1792.-418.2560.1415/0.25.1792.1095@1792.-418.2560.1415" timestamp="1601968391980" />
-    <state width="875" height="247" key="GridCell.Tab.0.left" timestamp="1603192637498">
-      <screen x="0" y="25" width="1792" height="1095" />
-    </state>
-    <state width="1259" height="472" key="GridCell.Tab.0.left/-1792.127.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1599849095157" />
-    <state width="875" height="344" key="GridCell.Tab.0.left/-1792.179.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1600010136004" />
-    <state width="1259" height="496" key="GridCell.Tab.0.left/-1792.179.1792.1097/0.23.2560.1417@0.23.2560.1417" timestamp="1601499372267" />
-    <state width="1259" height="342" key="GridCell.Tab.0.left/-1792.23.1792.1097/0.23.2560.1417@0.23.2560.1417" timestamp="1601347209272" />
-    <state width="875" height="201" key="GridCell.Tab.0.left/-397.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1599969994283" />
-    <state width="939" height="207" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1599645380891" />
-    <state width="939" height="257" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1599812015936" />
-    <state width="875" height="201" key="GridCell.Tab.0.left/0.23.1792.1027@0.23.1792.1027" timestamp="1600166902475" />
-    <state width="875" height="342" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1601111968680" />
-    <state width="875" height="247" key="GridCell.Tab.0.left/0.25.1792.1095@0.25.1792.1095" timestamp="1603192637498" />
-    <state width="1259" height="249" key="GridCell.Tab.0.left/0.25.2560.1415/-1792.164.1792.1095@0.25.2560.1415" timestamp="1602516147917" />
-    <state width="1259" height="336" key="GridCell.Tab.0.left/0.25.2560.1415/-1792.25.1792.1095@0.25.2560.1415" timestamp="1602965623526" />
-    <state width="1259" height="339" key="GridCell.Tab.0.left/1792.-418.2560.1415/0.25.1792.1095@1792.-418.2560.1415" timestamp="1601968391980" />
-    <state width="875" height="247" key="GridCell.Tab.0.right" timestamp="1603192637499">
-      <screen x="0" y="25" width="1792" height="1095" />
-    </state>
-    <state width="1259" height="472" key="GridCell.Tab.0.right/-1792.127.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1599849095157" />
-    <state width="875" height="344" key="GridCell.Tab.0.right/-1792.179.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1600010136005" />
-    <state width="1259" height="496" key="GridCell.Tab.0.right/-1792.179.1792.1097/0.23.2560.1417@0.23.2560.1417" timestamp="1601499372268" />
-    <state width="1259" height="342" key="GridCell.Tab.0.right/-1792.23.1792.1097/0.23.2560.1417@0.23.2560.1417" timestamp="1601347209273" />
-    <state width="875" height="201" key="GridCell.Tab.0.right/-397.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1599969994284" />
-    <state width="939" height="207" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1599645380891" />
-    <state width="939" height="257" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1599812015937" />
-    <state width="875" height="201" key="GridCell.Tab.0.right/0.23.1792.1027@0.23.1792.1027" timestamp="1600166902476" />
-    <state width="875" height="342" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1601111968680" />
-    <state width="875" height="247" key="GridCell.Tab.0.right/0.25.1792.1095@0.25.1792.1095" timestamp="1603192637499" />
-    <state width="1259" height="249" key="GridCell.Tab.0.right/0.25.2560.1415/-1792.164.1792.1095@0.25.2560.1415" timestamp="1602516147918" />
-    <state width="1259" height="336" key="GridCell.Tab.0.right/0.25.2560.1415/-1792.25.1792.1095@0.25.2560.1415" timestamp="1602965623527" />
-    <state width="1259" height="339" key="GridCell.Tab.0.right/1792.-418.2560.1415/0.25.1792.1095@1792.-418.2560.1415" timestamp="1601968391981" />
-    <state x="775" y="532" width="844" height="287" key="GridCell.Tab.1.bottom" timestamp="1600842409529">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state width="1259" height="472" key="GridCell.Tab.1.bottom/-1792.127.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1599849095158" />
-    <state width="875" height="344" key="GridCell.Tab.1.bottom/-1792.179.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1600010136006" />
-    <state width="875" height="344" key="GridCell.Tab.1.bottom/-397.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1599967938912" />
-    <state width="939" height="257" key="GridCell.Tab.1.bottom/0.23.1440.806@0.23.1440.806" timestamp="1599629469951" />
-    <state width="939" height="257" key="GridCell.Tab.1.bottom/0.23.1440.807@0.23.1440.807" timestamp="1599812015939" />
-    <state x="775" y="532" width="844" height="287" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1600842409529" />
-    <state x="775" y="532" width="844" height="287" key="GridCell.Tab.1.center" timestamp="1600842409528">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state width="1259" height="472" key="GridCell.Tab.1.center/-1792.127.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1599849095158" />
-    <state width="875" height="344" key="GridCell.Tab.1.center/-1792.179.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1600010136006" />
-    <state width="875" height="344" key="GridCell.Tab.1.center/-397.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1599967938911" />
-    <state width="939" height="257" key="GridCell.Tab.1.center/0.23.1440.806@0.23.1440.806" timestamp="1599629469951" />
-    <state width="939" height="257" key="GridCell.Tab.1.center/0.23.1440.807@0.23.1440.807" timestamp="1599812015938" />
-    <state x="775" y="532" width="844" height="287" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1600842409528" />
-    <state x="775" y="532" width="844" height="287" key="GridCell.Tab.1.left" timestamp="1600842409528">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state width="1259" height="472" key="GridCell.Tab.1.left/-1792.127.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1599849095157" />
-    <state width="875" height="344" key="GridCell.Tab.1.left/-1792.179.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1600010136005" />
-    <state width="875" height="344" key="GridCell.Tab.1.left/-397.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1599967938911" />
-    <state width="939" height="257" key="GridCell.Tab.1.left/0.23.1440.806@0.23.1440.806" timestamp="1599629469951" />
-    <state width="939" height="257" key="GridCell.Tab.1.left/0.23.1440.807@0.23.1440.807" timestamp="1599812015938" />
-    <state x="775" y="532" width="844" height="287" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1600842409528" />
-    <state x="775" y="532" width="844" height="287" key="GridCell.Tab.1.right" timestamp="1600842409529">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state width="1259" height="472" key="GridCell.Tab.1.right/-1792.127.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1599849095158" />
-    <state width="875" height="344" key="GridCell.Tab.1.right/-1792.179.1792.1097/0.23.2560.1347@0.23.2560.1347" timestamp="1600010136006" />
-    <state width="875" height="344" key="GridCell.Tab.1.right/-397.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1599967938911" />
-    <state width="939" height="257" key="GridCell.Tab.1.right/0.23.1440.806@0.23.1440.806" timestamp="1599629469951" />
-    <state width="939" height="257" key="GridCell.Tab.1.right/0.23.1440.807@0.23.1440.807" timestamp="1599812015939" />
-    <state x="775" y="532" width="844" height="287" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1600842409529" />
-    <state x="50" y="628" width="845" height="315" key="GridCell.Tab.2.bottom" timestamp="1600842364667">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state x="50" y="628" width="845" height="315" key="GridCell.Tab.2.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1600842364667" />
-    <state x="50" y="628" width="845" height="315" key="GridCell.Tab.2.center" timestamp="1600842364667">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state x="50" y="628" width="845" height="315" key="GridCell.Tab.2.center/0.23.1792.1097@0.23.1792.1097" timestamp="1600842364667" />
-    <state x="50" y="628" width="845" height="315" key="GridCell.Tab.2.left" timestamp="1600842364666">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state x="50" y="628" width="845" height="315" key="GridCell.Tab.2.left/0.23.1792.1097@0.23.1792.1097" timestamp="1600842364666" />
-    <state x="50" y="628" width="845" height="315" key="GridCell.Tab.2.right" timestamp="1600842364667">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state x="50" y="628" width="845" height="315" key="GridCell.Tab.2.right/0.23.1792.1097@0.23.1792.1097" timestamp="1600842364667" />
-    <state x="76" y="77" key="SettingsEditor" timestamp="1599964833813">
-      <screen x="0" y="23" width="1792" height="1027" />
-    </state>
-    <state x="76" y="77" key="SettingsEditor/-397.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1599964833813" />
-    <state x="61" y="65" key="SettingsEditor/0.23.1440.806@0.23.1440.806" timestamp="1599542323976" />
-    <state x="1484" y="476" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1600943327494">
-      <screen x="0" y="23" width="2560" height="1417" />
-    </state>
-    <state x="1484" y="476" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/-1792.23.1792.1097/0.23.2560.1417@0.23.2560.1417" timestamp="1600943327494" />
-    <state x="50" y="628" width="845" height="331" key="dock-window-1" timestamp="1600842778689">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state x="50" y="628" width="845" height="331" key="dock-window-1/0.23.1792.1097@0.23.1792.1097" timestamp="1600842778689" />
-    <state x="242" y="718" width="845" height="331" key="dock-window-2" timestamp="1600842778690">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state x="242" y="718" width="845" height="331" key="dock-window-2/0.23.1792.1097@0.23.1792.1097" timestamp="1600842778690" />
-    <state x="775" y="532" width="844" height="303" key="dock-window-3" timestamp="1600842778690">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state x="775" y="532" width="844" height="303" key="dock-window-3/0.23.1792.1097@0.23.1792.1097" timestamp="1600842778690" />
-    <state x="50" y="673" width="845" height="331" key="dock-window-4" timestamp="1600241320964">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state x="50" y="673" width="845" height="331" key="dock-window-4/0.23.1792.1097@0.23.1792.1097" timestamp="1600241320964" />
-    <state x="50" y="658" width="845" height="331" key="dock-window-5" timestamp="1600241320965">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state x="50" y="658" width="845" height="331" key="dock-window-5/0.23.1792.1097@0.23.1792.1097" timestamp="1600241320965" />
-    <state x="50" y="643" width="845" height="331" key="dock-window-6" timestamp="1600251259414">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state x="50" y="643" width="845" height="331" key="dock-window-6/0.23.1792.1097@0.23.1792.1097" timestamp="1600251259414" />
-    <state x="921" y="170" width="845" height="806" key="find.popup" timestamp="1602673382079">
-      <screen x="0" y="25" width="1792" height="1095" />
-    </state>
-    <state x="921" y="168" width="845" height="807" key="find.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1601106261034" />
-    <state x="921" y="170" width="845" height="806" key="find.popup/0.25.1792.1095@0.25.1792.1095" timestamp="1602673382079" />
-    <state width="600" height="424" key="javadoc.popup" timestamp="1600783881383">
-      <screen x="0" y="23" width="2560" height="1417" />
-    </state>
-    <state width="600" height="424" key="javadoc.popup/-1792.23.1792.1097/0.23.2560.1417@0.23.2560.1417" timestamp="1600783881383" />
-    <state x="280" y="200" width="835" height="920" key="search.everywhere.popup" timestamp="1603192611961">
-      <screen x="0" y="25" width="1792" height="1095" />
-    </state>
-    <state x="400" y="250" width="1192" height="1190" key="search.everywhere.popup/-1792.23.1792.1097/0.23.2560.1417@0.23.2560.1417" timestamp="1600952161216" />
-    <state x="280" y="188" width="834" height="862" key="search.everywhere.popup/-397.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1599969988105" />
-    <state x="225" y="153" width="670" height="676" key="search.everywhere.popup/0.23.1440.806@0.23.1440.806" timestamp="1599555231843" />
-    <state x="225" y="153" width="670" height="677" key="search.everywhere.popup/0.23.1440.807@0.23.1440.807" timestamp="1599743083589" />
-    <state x="280" y="199" width="834" height="921" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1600329475570" />
-    <state x="280" y="200" width="835" height="920" key="search.everywhere.popup/0.25.1792.1095@0.25.1792.1095" timestamp="1603192611961" />
-    <state x="400" y="251" width="1193" height="1189" key="search.everywhere.popup/0.25.2560.1415/-1792.25.1792.1095@0.25.2560.1415" timestamp="1602953641790" />
+    <state x="400" y="251" width="1193" height="1189" key="search.everywhere.popup/0.25.2560.1415/-1792.345.1792.1095@0.25.2560.1415" timestamp="1606748017943" />
+    <state x="2192" y="-69" width="1193" height="1189" key="search.everywhere.popup/1792.-295.2560.1415/0.25.1792.1095@1792.-295.2560.1415" timestamp="1609301650196" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -718,6 +683,10 @@
           <url>file://$PROJECT_DIR$/python/BOJ/19237.py</url>
           <line>87</line>
           <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Codeforces/#687_DIV2/A.py</url>
+          <option name="timeStamp" value="109" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
