@@ -1,11 +1,11 @@
 
 
-# folder
+# configuration folder and files
 .idea/**
 .vscode/**
 PStest/**
 **/.DS_Store
-
+vscode.code-workspace
 
 #######################################
 
