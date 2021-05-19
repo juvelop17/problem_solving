@@ -44,12 +44,12 @@ PStest/**
 *.app
 
 # vs code
-.vscode/*
-!.vscode/settings.json
+#.vscode/**
+#!.vscode/settings.json
 # !.vscode/tasks.json
 # !.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/setup_example
+#!.vscode/extensions.json
+#!.vscode/setup_example
 *.pdb
 
 
