@@ -6,6 +6,8 @@
 PStest/**
 **/.DS_Store
 vscode.code-workspace
+cmake-build-debug/
+bin/
 
 #######################################
 
