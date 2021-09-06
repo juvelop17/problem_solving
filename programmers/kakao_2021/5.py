@@ -1,9 +1,3 @@
-
-
-
-
-
-
 def timeToInt(time):
     li = time.split(':')
     return int(li[0])*60*60 + int(li[1])*60 + int(li[2])
