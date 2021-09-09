@@ -7,3 +7,6 @@ set(CMAKE_OSX_ARCHITECTURES "arm64")
 
 
 
+
+
+add_executable(3 "programmers/code challenge 3rd/3.cpp")
