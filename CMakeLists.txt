@@ -7,5 +7,3 @@ set(CMAKE_OSX_ARCHITECTURES "arm64")
 
 
 
-add_executable(4 programmers/kakao_2021/4.cpp)
-add_executable(6 programmers/kakao_2021/6.cpp)
