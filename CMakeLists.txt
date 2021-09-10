@@ -9,4 +9,4 @@ set(CMAKE_OSX_ARCHITECTURES "arm64")
 
 
 
-add_executable(3 "programmers/code challenge 3rd/3.cpp")
+add_executable(7 "programmers/kakao 2020/7.cpp")
