@@ -40,7 +40,7 @@ int solution(){
                 sum = sum % (1000000007);
             }
         }
-        cout << "test " << test << " : " << sum << endl;
+        cout << "exam " << test << " : " << sum << endl;
     }
 
 

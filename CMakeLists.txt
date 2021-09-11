@@ -9,4 +9,3 @@ set(CMAKE_OSX_ARCHITECTURES "arm64")
 
 
 
-add_executable(7 "programmers/kakao 2020/7.cpp")

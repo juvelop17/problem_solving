@@ -57,8 +57,8 @@ int main(){
 
 
     unordered_map<string, int*> newmap;
-    printf("%s %d\n", "test", um["test"]);
-    printf("%s %d\n", "test", newmap["test"]);
+    printf("%s %d\n", "exam", um["exam"]);
+    printf("%s %d\n", "exam", newmap["exam"]);
 
 
     um.insert({"melon",3});
