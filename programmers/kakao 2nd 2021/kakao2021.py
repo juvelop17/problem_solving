@@ -1,28 +1,23 @@
 import requests
 import json
-import math
-import heapq
 
-token = '09ceb13d9d61375d8f403a0b48e0528e'
+token = 'b5ced343d3d8e174c84075b2326ccb36'
 baseURL = 'https://kox947ka1a.execute-api.ap-northeast-2.amazonaws.com/prod/users'
 MAX_TIME = 720
+MAX_TRUCK_BIKE = 20
+alpha = 0.1 # 거리와 개수에대한 가중치
 
 authKey = ''
 problem = -1
 time = -1
 N = -1
-totalDist = 0
-totalFail = 0
 bike = []
 truck = []
 truckCnt = -1
 
-ret = []
-req = []
-
 
 def init(pnum):
-    global authKey, time, truck, bike, req, ret, truckCnt
+    global N, problem, authKey, time, bike, truck, truckCnt
 
     problem = pnum
     if problem == 1:
@@ -31,48 +26,39 @@ def init(pnum):
     else:
         N = 60
         truckCnt = 10
-    bike = [[0 for _ in range(N)] for _ in range(N)]
+    bike = [0 for _ in range(N*N)]
     truck = [{} for _ in range(truckCnt)]
 
     res = startAPI(problem)
-    print(res)
-    res.raise_for_status()
     resJson = res.json()
     authKey = resJson['auth_key']
     time = resJson['time']
 
-    req = [[] for _ in range(MAX_TIME)]
-    ret = [[] for _ in range(MAX_TIME)]
-
 
 def startAPI(problem):
+    """
+    API 시작
+    :param problem: 문제 번호
+    :return:
+    """
     headers = {'Content-Type': 'application/json', 'X-Auth-Token': token}
     data = {'problem': problem}
-    return requests.post(baseURL + '/start', headers=headers, data=json.dumps(data))
-
+    return requests.post(baseURL + '/start', headers=headers, json=data)
 
 def locationsAPI():
     headers = {'Content-Type': 'application/json', 'Authorization': authKey}
     res = requests.get(baseURL + '/locations', headers=headers)
-    res.raise_for_status()
     rjson = res.json()
     for loc in rjson['locations']:
-        x = loc['id'] // N
-        y = loc['id'] % N
-        bike[x][y] = loc['located_bikes_count']
-
+        bike[loc['id']] = loc['located_bikes_count']
 
 def trucksAPI():
     headers = {'Content-Type': 'application/json', 'Authorization': authKey}
     res = requests.get(baseURL + '/trucks', headers=headers)
-    print(res)
-
-    res.raise_for_status()
     rjson = res.json()
     for tr in rjson['trucks']:
         truck[tr['id']]['location_id'] = tr['location_id']
         truck[tr['id']]['loaded_bikes_count'] = tr['loaded_bikes_count']
-
 
 def parseDocument(i):
     global req
@@ -81,125 +67,133 @@ def parseDocument(i):
             for arr in v:
                 req[int(k)].append(arr[:])
 
+def loadBike(avgBike, tid, commList):
+    locid = truck[tid]['location_id']
+    while len(commList[tid]) < 10 and truck[tid]['loaded_bikes_count'] < MAX_TRUCK_BIKE and bike[locid] > avgBike:
+        truck[tid]['loaded_bikes_count'] += 1
+        bike[locid] -= 1
+        commList[tid].append(5)
 
-def findHotPlace():
-    hotPlace = [[] for _ in range(3)]
-    for i in range(1, 4):
-        with open('./problem2_day-' + str(i) + '.json', 'r') as f:
-            jsonLoad = json.load(f)
-            jsonSort = sorted(list(zip(list(map(int, jsonLoad.keys())), jsonLoad.values())))
-            # print(jsonSort)
+def unloadBike(avgBike, tid, commList):
+    locid = truck[tid]['location_id']
+    while len(commList[tid]) < 10 and truck[tid]['loaded_bikes_count'] > 0:
+        truck[tid]['loaded_bikes_count'] -= 1
+        bike[locid] += 1
+        commList[tid].append(6)
 
-            reqCnt = [0 for _ in range(N*N)]
-            placeCnt = 0
-            for k, v in jsonSort:
-                for arr in v:
-                    reqCnt[arr[0]] += 1
+def move(tid, destid, commList):
+    locid = truck[tid]['location_id']
 
-                if k > 0 and k % 240 == 0:
-                    li = sorted([[i, reqCnt[i]] for i in range(len(reqCnt))], key=(lambda x: -x[1]))
-                    print(li)
-                    hotPlace[placeCnt].append(li[0][0])
-                    placeCnt += 1
-                    reqCnt = [0 for _ in range(N*N)]
+    # 가로 이동
+    truck[tid]['location_id'] += N * (destid // N - locid // N)
+    if destid // N > locid // N:
+        commList[tid].extend([2] * abs(destid // N - locid // N))
+    elif destid // N < locid // N:
+        commList[tid].extend([4] * abs(destid // N - locid // N))
 
-            li = sorted([[i, reqCnt[i]] for i in range(len(reqCnt))], key=(lambda x: -x[1]))
-            print(li)
-            hotPlace[placeCnt].append(li[0][0])
+    # 세로 이동
+    truck[tid]['location_id'] += destid % N - locid % N
+    if destid % N > locid % N:
+        commList[tid].extend([1] * abs(destid % N - locid % N))
+    elif destid % N < locid % N:
+        commList[tid].extend([3] * abs(destid % N - locid % N))
 
-    return hotPlace
-
-
-def sendLocal(commands):
-    global totalDist, totalFail
-
-    status = 'ready'
-    ntime = time + 1
-    failCnt = 0
-    for r in ret[time]:
-        x = r // N
-        y = r % N
-        bike[x][y] += 1
-
-    for r in req[time]:
-        sx = r[0] // N
-        sy = r[0] % N
-        if bike[sx][sy] == 0 or time + r[2] >= MAX_TIME:
-            failCnt += 1
-            continue
-        bike[sx][sy] -= 1
-        ret[time + r[2]].append(r[1])
-    totalFail += failCnt
-
-    for command in commands:
-        locid = truck[command["truck_id"]]['location_id']
-        for comm in command["truck_id"]['command']:
-            if comm == 1:
-                locid += 1
-                totalDist += 100
-            elif comm == 2:
-                locid += N
-                totalDist += 100
-            elif comm == 3:
-                locid -= 1
-                totalDist += 100
-            elif comm == 4:
-                locid -= N
-                totalDist += 100
-            elif comm == 5:
-                if bike[locid // N][locid % N]:
-                    truck[command["truck_id"]]['loaded_bikes_count'] += 1
-                    bike[locid // N][locid % N] -= 1
-            elif comm == 6:
-                if truck[command["truck_id"]]['loaded_bikes_count']:
-                    truck[command["truck_id"]]['loaded_bikes_count'] -= 1
-                    bike[locid // N][locid % N] += 1
-
-    if ntime == 720:
-        status = 'finished'
-    res = {'status': status, 'time': ntime, 'failed_requests_count': failCnt, 'distance': totalDist}
+def send(data):
+    headers = {'Content-Type': 'application/json', 'Authorization': authKey}
+    res = requests.put(baseURL + '/simulate', headers=headers, json=data)
     return res
 
 
-def simulateLocal(day):
-    global problem, bike, truck
-
-    locationsAPI()
-    trucksAPI()
-    parseDocument(day)
+def simulate():
+    global time
 
     while time < MAX_TIME:
+        # 위치 정보 업데이트
+        locationsAPI()
+        trucksAPI()
+        avgBike = sum(bike) // len(bike)
 
-        totalBike = 0
-        for i in range(N):
-            for j in range(N):
-                totalBike += bike[i][j]
-        avgBike = totalBike // (N*N)
+        # bike 정렬
+        maxBikeSort = sorted(list(zip(range(N*N), bike)), key=lambda x:(-x[1], x[0]))
+        # print('maxBikeSort', maxBikeSort[:10])
 
-        commands = []
-        heap = []
-        for i in range(N*N):
-            for j in range(truckCnt):
-                truckLoc = truck[j]['location_id']
-                tx = truckLoc // N
-                ty = truckLoc % N
-                ix = i // N
-                iy = i % N
-                heapq.heappush(heap, [])
+        # 목적지 설정
+        work = [-1 for _ in range(truckCnt)]
+        for locid, bikeCnt in maxBikeSort[:truckCnt]:
+            minDist = 100000
+            minTid = -1
+            for tid in range(truckCnt):
+                if work[tid] != -1:
+                    continue
+                tloc = truck[tid]['location_id']
+                tx = tloc // N
+                ty = tloc % N
+                bx = locid // N
+                by = locid % N
+                if minDist > abs(tx-bx) + abs(ty-by):
+                    minDist = abs(tx-bx) + abs(ty-by)
+                    minTid = tid
+            work[minTid] = locid
 
+        commList = [[] for _ in range(truckCnt)]
+        # 명령 생성
+        for tid in range(truckCnt):
+            if truck[tid]['loaded_bikes_count'] < avgBike:
+                # max 이동
+                destid = work[tid]
+                move(tid, destid, commList)
 
+                # 자전거 싣기
+                loadBike(avgBike, tid, commList)
 
+        # min bike 정렬
+        minBikeSort = sorted(list(zip(range(N * N), bike)), key=lambda x: (x[1], x[0]))
+        # print('minBikeSort', minBikeSort[:10])
 
-        res = sendLocal(commands)
-        if res['status'] == 'ready':
-            time = res['time']
-            print(res['failed_requests_count'], res['distance'])
+        # 목적지 설정
+        work = [-1 for _ in range(truckCnt)]
+        for locid, bikeCnt in minBikeSort[:truckCnt]:
+            minDist = 100000
+            minTid = -1
+            for tid in range(truckCnt):
+                if work[tid] != -1:
+                    continue
+                tloc = truck[tid]['location_id']
+                tx = tloc // N
+                ty = tloc % N
+                bx = locid // N
+                by = locid % N
+                if minDist > abs(tx - bx) + abs(ty - by):
+                    minDist = abs(tx - bx) + abs(ty - by)
+                    minTid = tid
+            work[minTid] = locid
 
+        # 명령 생성
+        for tid in range(truckCnt):
+            # min 이동
+            destid = work[tid]
+            move(tid, destid, commList)
 
+            # 자전거 내리기
+            unloadBike(avgBike, tid, commList)
 
+        data = {}
+        data['commands'] = []
+        for tid in range(truckCnt):
+            comm = {'truck_id': tid, 'command': commList[tid][:10]}
+            data['commands'].append(comm)
 
-def simulateServer(prob):
-    pass
+        # print(data)
+        # print(truck)
+
+        res = send(data)
+        resJson = res.json()
+        if resJson['status'] == 'ready':
+            time = resJson['time']
+            print(resJson['time'], resJson['failed_requests_count'], resJson['distance'])
+        else:
+            print(score().json()['score'])
+            break
 
 
 def score():
@@ -208,12 +202,12 @@ def score():
 
 
 if __name__ == '__main__':
-    scores = []
-
     init(1)
-    simulateLocal(3)
-    scores.append(score().json()['score'])
+    simulate()
 
-    print(scores)
+    init(2)
+    simulate()
+    # print(findHotPlace())
 
-    print(findHotPlace())
+
+
