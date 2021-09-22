@@ -8,7 +8,6 @@ PStest/**
 vscode.code-workspace
 cmake-build-debug/
 bin/
-exam/
 
 #######################################
 
