@@ -9,3 +9,5 @@ set(CMAKE_OSX_ARCHITECTURES "arm64")
 
 
 
+
+add_executable(82612 programmers/82612.cpp)
