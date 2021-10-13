@@ -3,50 +3,56 @@ from queue import PriorityQueue
 
 que = PriorityQueue()
 
-l = [4,2,2,1,2,1,8,2]
-for n in l:
-    que.put(n)
+que.put(1)
+que.put(5)
+que.put(4)
+que.put(3)
+que.put(2)
+que.put(10)
+
 
 while not que.empty():
     print(que.get())
 
-print('-------------------------')
+class Node:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
 
-for n in l:
-    que.put(-n)
+    def __lt__(self, other):
+        if self.a == other.a:
+            return self.b < other.b
+        return self.a > other.a
 
-while not que.empty():
-    print(-que.get())
+    def __repr__(self):
+        return f'({self.a} {self.b})'
 
-print('-------------------------')
-
-l = [(1, 'z'), (1, 'asdf'), (1, 'fjeo')]
-for n in l:
-    que.put(n)
-
-while not que.empty():
-    print(que.get())
-
-
-print('-------------------------')
-
-l = [[11, 'z'], [2, 'asdf'], [3, 'fjeo']]
-for n in l:
-    que.put(n)
-
-while not que.empty():
-    print(que.get())
-
-print('-------------------------')
-
-l = [['z', 1], ['asdf', 2], ['fjeo', 3]]
-for n in l:
-    que.put(n)
+que = PriorityQueue()
+que.put(Node(1,2))
+que.put(Node(10,1))
+que.put(Node(2,5))
+que.put(Node(1,5))
+que.put(Node(10,5))
+que.put(Node(1,29))
+que.put(Node(2,1))
 
 while not que.empty():
     print(que.get())
 
 
+li = [1,2,3,4,5]
 
+for l in li:
+    print(l)
+    li.remove(l)
+    print(li)
+
+print('----------')
+li = [1,2,3,4,5]
+
+for i in range(len(li)):
+    print(li[i])
+    li.remove(li[i])
+    print(li)
 
 

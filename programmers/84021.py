@@ -49,7 +49,6 @@ def fill(game_board, shapeList, i, j):
         idx += 1
     target.sort()
 
-    isFind = False
     for shape in shapeList:
         if len(shape) != len(target):
             continue
@@ -58,13 +57,8 @@ def fill(game_board, shapeList, i, j):
             if shape[idx][0] != target[idx][0] or shape[idx][1] != target[idx][1]:
                 break
             if idx == len(shape) - 1:
-                isFind = True
                 shapeList.remove(shape)
-
-        # print(i, j, isFind)
-        if isFind:
-            return len(target)
-
+                return len(target)
 
     for idx in range(len(target)):
         ci, cj = target[idx]
@@ -113,6 +107,9 @@ def solution(game_board, table):
 
 
     return fillSum
+
+
+
 
 if __name__ == '__main__':
     game_board = [[1,1,0,0,1,0],[0,0,1,0,1,0],[0,1,1,0,0,1],[1,1,0,1,1,1],[1,0,0,0,1,0],[0,1,1,1,0,0]]
